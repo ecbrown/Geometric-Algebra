@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[   2993910,     102340]
-NotebookOptionsPosition[   2986001,     102192]
-NotebookOutlinePosition[   2986421,     102209]
-CellTagsIndexPosition[   2986378,     102206]
+NotebookDataLength[   2995629,     102381]
+NotebookOptionsPosition[   2987485,     102229]
+NotebookOutlinePosition[   2987905,     102246]
+CellTagsIndexPosition[   2987862,     102243]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -102188,6 +102188,43 @@ Cell[BoxData[
 d6c237d8e240"]
 }, Open  ]]
 }, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["License", "Section",
+ CellChangeTimes->{{3.9777863756695538`*^9, 
+  3.9777863764402323`*^9}},ExpressionUUID->"ce7d48da-191e-4806-a1cd-\
+fe445ea03ff4"],
+
+Cell["\<\
+MIT License
+
+Copyright (c) 2025 Eric Lengyel
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the \
+\[OpenCurlyDoubleQuote]Software\[CloseCurlyDoubleQuote]), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED \[OpenCurlyDoubleQuote]AS \
+IS\[CloseCurlyDoubleQuote], WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.\
+\>", "Text",
+ CellChangeTimes->{
+  3.977786379113736*^9},ExpressionUUID->"7ee7bb7c-6114-45f1-a13d-\
+f360bf1dd847"]
 }, Open  ]]
 },
 WindowSize->{1352, 820},
@@ -102341,6 +102378,10 @@ Cell[2573126, 87899, 6235, 114, 113, "Input",ExpressionUUID->"317f7420-04a4-4e4b
 Cell[2579364, 88015, 406597, 14172, 1096, "Output",ExpressionUUID->"9ef8c55b-23b0-4615-bb2c-d6c237d8e240"]
 }, Open  ]]
 }, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2986022, 102194, 156, 3, 82, "Section",ExpressionUUID->"ce7d48da-191e-4806-a1cd-fe445ea03ff4"],
+Cell[2986181, 102199, 1288, 27, 588, "Text",ExpressionUUID->"7ee7bb7c-6114-45f1-a13d-f360bf1dd847"]
 }, Open  ]]
 }
 ]

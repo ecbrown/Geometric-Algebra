@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    963400,      31558]
-NotebookOptionsPosition[    953435,      31377]
-NotebookOutlinePosition[    953855,      31394]
-CellTagsIndexPosition[    953812,      31391]
+NotebookDataLength[    965115,      31599]
+NotebookOptionsPosition[    954919,      31414]
+NotebookOutlinePosition[    955339,      31431]
+CellTagsIndexPosition[    955296,      31428]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -31373,6 +31373,43 @@ Cell[BoxData[
   "Out[41]//TraditionalForm=",ExpressionUUID->"c8018b10-1ed0-458f-bf0f-\
 72c0a049ad94"]
 }, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["License", "Section",
+ CellChangeTimes->{{3.9777863756695538`*^9, 
+  3.9777863764402323`*^9}},ExpressionUUID->"d8ebadf9-0ed4-453b-8817-\
+65fdbb19f0cc"],
+
+Cell["\<\
+MIT License
+
+Copyright (c) 2025 Eric Lengyel
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the \
+\[OpenCurlyDoubleQuote]Software\[CloseCurlyDoubleQuote]), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED \[OpenCurlyDoubleQuote]AS \
+IS\[CloseCurlyDoubleQuote], WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.\
+\>", "Text",
+ CellChangeTimes->{
+  3.977786379113736*^9},ExpressionUUID->"47dd05f1-4be6-4cbd-b6ac-\
+86cf5b30746d"]
 }, Open  ]]
 },
 WindowSize->{1352, 820},
@@ -31559,6 +31596,10 @@ Cell[CellGroupData[{
 Cell[938961, 30993, 6447, 116, 138, "Input",ExpressionUUID->"9d947714-d9fc-4b25-b12c-ef3b6b3cd40c"],
 Cell[945411, 31111, 7996, 262, 186, "Output",ExpressionUUID->"c8018b10-1ed0-458f-bf0f-72c0a049ad94"]
 }, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[953456, 31379, 156, 3, 82, "Section",ExpressionUUID->"d8ebadf9-0ed4-453b-8817-65fdbb19f0cc"],
+Cell[953615, 31384, 1288, 27, 588, "Text",ExpressionUUID->"47dd05f1-4be6-4cbd-b6ac-86cf5b30746d"]
 }, Open  ]]
 }
 ]

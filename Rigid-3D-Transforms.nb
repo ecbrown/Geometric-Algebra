@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     47915,       1434]
-NotebookOptionsPosition[     43989,       1357]
-NotebookOutlinePosition[     44409,       1374]
-CellTagsIndexPosition[     44366,       1371]
+NotebookDataLength[     49626,       1475]
+NotebookOptionsPosition[     45473,       1394]
+NotebookOutlinePosition[     45893,       1411]
+CellTagsIndexPosition[     45850,       1408]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -1353,6 +1353,43 @@ Cell[BoxData[
  CellChangeTimes->{{3.9449642918079176`*^9, 3.9449643071091475`*^9}, {
   3.944964338108818*^9, 3.9449644021661663`*^9}},
  CellLabel->"In[18]:=",ExpressionUUID->"ae6ded29-cea2-4891-b07a-af09c6f22621"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["License", "Section",
+ CellChangeTimes->{{3.9777863756695538`*^9, 
+  3.9777863764402323`*^9}},ExpressionUUID->"7aee46a9-9f29-41c5-87ca-\
+f24f0efbe1c8"],
+
+Cell["\<\
+MIT License
+
+Copyright (c) 2025 Eric Lengyel
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the \
+\[OpenCurlyDoubleQuote]Software\[CloseCurlyDoubleQuote]), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED \[OpenCurlyDoubleQuote]AS \
+IS\[CloseCurlyDoubleQuote], WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.\
+\>", "Text",
+ CellChangeTimes->{
+  3.977786379113736*^9},ExpressionUUID->"10291eb5-d966-4a34-8f34-\
+d8c3a39b61ae"]
 }, Open  ]]
 },
 WindowSize->{1352, 820},
@@ -1435,6 +1472,10 @@ Cell[38837, 1210, 3995, 108, 107, "Output",ExpressionUUID->"445e852d-44b8-4c7d-8
 Cell[CellGroupData[{
 Cell[42881, 1324, 162, 3, 82, "Section",ExpressionUUID->"dc20984d-eb36-4c0e-9ac4-6aab2cec8c88"],
 Cell[43046, 1329, 927, 25, 36, "Input",ExpressionUUID->"ae6ded29-cea2-4891-b07a-af09c6f22621"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[44010, 1359, 156, 3, 82, "Section",ExpressionUUID->"7aee46a9-9f29-41c5-87ca-f24f0efbe1c8"],
+Cell[44169, 1364, 1288, 27, 588, "Text",ExpressionUUID->"10291eb5-d966-4a34-8f34-d8c3a39b61ae"]
 }, Open  ]]
 }
 ]

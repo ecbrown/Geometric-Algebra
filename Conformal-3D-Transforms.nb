@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     76754,       2341]
-NotebookOptionsPosition[     70853,       2232]
-NotebookOutlinePosition[     71273,       2249]
-CellTagsIndexPosition[     71230,       2246]
+NotebookDataLength[     78465,       2382]
+NotebookOptionsPosition[     72337,       2269]
+NotebookOutlinePosition[     72757,       2286]
+CellTagsIndexPosition[     72714,       2283]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -2228,6 +2228,43 @@ Cell[BoxData[
   "Out[82]//TraditionalForm=",ExpressionUUID->"ba0325e1-5b5d-47e8-bfef-\
 128bfed22d04"]
 }, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["License", "Section",
+ CellChangeTimes->{{3.9777863756695538`*^9, 
+  3.9777863764402323`*^9}},ExpressionUUID->"49835b95-3a78-4eee-b100-\
+8cb8baa3459e"],
+
+Cell["\<\
+MIT License
+
+Copyright (c) 2025 Eric Lengyel
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the \
+\[OpenCurlyDoubleQuote]Software\[CloseCurlyDoubleQuote]), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED \[OpenCurlyDoubleQuote]AS \
+IS\[CloseCurlyDoubleQuote], WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.\
+\>", "Text",
+ CellChangeTimes->{
+  3.977786379113736*^9},ExpressionUUID->"6d6e5d9c-455c-4232-b111-\
+d24e12972cde"]
 }, Open  ]]
 },
 WindowSize->{1352, 820},
@@ -2342,6 +2379,10 @@ Cell[CellGroupData[{
 Cell[66033, 2061, 279, 6, 36, "Input",ExpressionUUID->"43137abf-4049-43eb-ba48-3a8ea4bcd208"],
 Cell[66315, 2069, 4510, 159, 100, "Output",ExpressionUUID->"ba0325e1-5b5d-47e8-bfef-128bfed22d04"]
 }, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[70874, 2234, 156, 3, 82, "Section",ExpressionUUID->"49835b95-3a78-4eee-b100-8cb8baa3459e"],
+Cell[71033, 2239, 1288, 27, 588, "Text",ExpressionUUID->"6d6e5d9c-455c-4232-b111-d24e12972cde"]
 }, Open  ]]
 }
 ]

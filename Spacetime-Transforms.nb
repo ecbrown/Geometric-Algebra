@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     27766,        863]
-NotebookOptionsPosition[     24977,        806]
-NotebookOutlinePosition[     25397,        823]
-CellTagsIndexPosition[     25354,        820]
+NotebookDataLength[     29475,        904]
+NotebookOptionsPosition[     26461,        843]
+NotebookOutlinePosition[     26881,        860]
+CellTagsIndexPosition[     26838,        857]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -802,6 +802,43 @@ Cell[BoxData[
   "Out[13]//MatrixForm=",ExpressionUUID->"45a481f3-38ad-441c-a9ed-\
 7cfa5879e83c"]
 }, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["License", "Section",
+ CellChangeTimes->{{3.9777863756695538`*^9, 
+  3.9777863764402323`*^9}},ExpressionUUID->"3af9a676-0206-40c5-8648-\
+1f187ca25b0e"],
+
+Cell["\<\
+MIT License
+
+Copyright (c) 2025 Eric Lengyel
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the \
+\[OpenCurlyDoubleQuote]Software\[CloseCurlyDoubleQuote]), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED \[OpenCurlyDoubleQuote]AS \
+IS\[CloseCurlyDoubleQuote], WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.\
+\>", "Text",
+ CellChangeTimes->{
+  3.977786379113736*^9},ExpressionUUID->"835733a3-6e97-42a1-a952-\
+b5c67e6df2a5"]
 }, Open  ]]
 },
 WindowSize->{1352, 820},
@@ -864,6 +901,10 @@ Cell[CellGroupData[{
 Cell[21344, 693, 531, 14, 36, "Input",ExpressionUUID->"636a3d6e-cea5-4df7-808a-42125333858e"],
 Cell[21878, 709, 3071, 93, 128, "Output",ExpressionUUID->"45a481f3-38ad-441c-a9ed-7cfa5879e83c"]
 }, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[24998, 808, 156, 3, 82, "Section",ExpressionUUID->"3af9a676-0206-40c5-8648-1f187ca25b0e"],
+Cell[25157, 813, 1288, 27, 588, "Text",ExpressionUUID->"835733a3-6e97-42a1-a952-b5c67e6df2a5"]
 }, Open  ]]
 }
 ]
