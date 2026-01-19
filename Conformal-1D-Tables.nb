@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    372883,      10759]
-NotebookOptionsPosition[    363297,      10581]
-NotebookOutlinePosition[    363717,      10598]
-CellTagsIndexPosition[    363674,      10595]
+NotebookDataLength[    423039,      12650]
+NotebookOptionsPosition[    413320,      12471]
+NotebookOutlinePosition[    413895,      12491]
+CellTagsIndexPosition[    413852,      12488]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -395,10 +395,12 @@ Cell[BoxData[
    3.9448791277289095`*^9, 3.9448834559602675`*^9, {3.9449348802338142`*^9, 
    3.9449349116059475`*^9}, 3.9449349610689945`*^9, 3.94493632437912*^9, 
    3.9449609645214*^9, 3.9568771440453568`*^9, 3.9777739076468897`*^9, 
-   3.9777739449545307`*^9, 3.97777501434822*^9, 3.977775315605255*^9},
+   3.9777739449545307`*^9, 3.97777501434822*^9, 3.977775315605255*^9, 
+   3.9777821016211653`*^9, 3.977782807921605*^9, 3.9777828955019703`*^9, 
+   3.9777835331097097`*^9},
  CellLabel->
-  "Out[3]//TraditionalForm=",ExpressionUUID->"23aca572-c95f-4bab-a177-\
-d9a2fe652b21"]
+  "Out[3]//TraditionalForm=",ExpressionUUID->"921de5d4-7ac2-4106-b37d-\
+b2081c5ccb95"]
 }, Open  ]]
 }, Open  ]],
 
@@ -879,10 +881,12 @@ Cell[BoxData[
    3.94487917796745*^9, 3.9448791816955357`*^9}, 3.944883455983288*^9, {
    3.944934974792124*^9, 3.9449349785724134`*^9}, 3.9449363243976297`*^9, 
    3.9449609645414886`*^9, 3.956877144063857*^9, 3.9777739076615887`*^9, 
-   3.9777739452654247`*^9, 3.977775014370859*^9, 3.977775315612248*^9},
+   3.9777739452654247`*^9, 3.977775014370859*^9, 3.977775315612248*^9, 
+   3.977782101646057*^9, 3.977782807930789*^9, 3.977782895525774*^9, 
+   3.97778353312903*^9},
  CellLabel->
-  "Out[4]//TraditionalForm=",ExpressionUUID->"d4eb00a0-d4ea-45df-b54e-\
-0aa18332ab28"]
+  "Out[4]//TraditionalForm=",ExpressionUUID->"35a7de48-4ca6-4a1d-a666-\
+65692b13ce19"]
 }, Open  ]]
 }, Open  ]],
 
@@ -1370,10 +1374,11 @@ Cell[BoxData[
    3.9448834560078135`*^9, 3.9449350088702335`*^9, 3.9449350533570247`*^9, 
    3.944936324425144*^9, 3.9449609645584936`*^9, 3.956877144081356*^9, 
    3.977773907668749*^9, 3.977773949457657*^9, 3.9777750143768167`*^9, 
-   3.97777531562711*^9},
+   3.97777531562711*^9, 3.97778210165606*^9, 3.977782807958852*^9, 
+   3.977782895546034*^9, 3.97778353313627*^9},
  CellLabel->
-  "Out[5]//TraditionalForm=",ExpressionUUID->"bafd7367-183d-43b6-855c-\
-6667cc2c9af8"]
+  "Out[5]//TraditionalForm=",ExpressionUUID->"4d5dfddf-faff-447d-a359-\
+af94f4d9d7f5"]
 }, Open  ]]
 }, Open  ]],
 
@@ -1384,7 +1389,9 @@ Cell["Inner Products", "Section",
   3.944705125002762*^9}},ExpressionUUID->"35300fa4-235d-4499-915c-\
 dabcc511ece6"],
 
-Cell[CellGroupData[{
+Cell[BoxData[""], "Input",
+ CellChangeTimes->{{3.977782567355571*^9, 3.977782582961666*^9}},
+ CellLabel->"In[6]:=",ExpressionUUID->"db08c399-2297-4ffe-880b-36d16f5a8f94"],
 
 Cell[BoxData[
  RowBox[{
@@ -1397,8 +1404,7 @@ Cell[BoxData[
      RowBox[{"x", "=", 
       RowBox[{
        RowBox[{"BasisList", "[", 
-        RowBox[{"[", "i", "]"}], "]"}], 
-       RowBox[{"\\[", "Dot", "]"}], 
+        RowBox[{"[", "i", "]"}], "]"}], "\[Dot]", 
        RowBox[{"BasisList", "[", 
         RowBox[{"[", "j", "]"}], "]"}]}]}], ";", 
      RowBox[{"If", "[", 
@@ -1423,25 +1429,9 @@ Cell[BoxData[
    3.9063921481513724`*^9, 3.9063921510888715`*^9}, {3.906392184549407*^9, 
    3.9063921866744003`*^9}, {3.906392249817413*^9, 3.9063922664853387`*^9}, {
    3.906392348165488*^9, 3.9063923486342387`*^9}, {3.944705141936438*^9, 
-   3.944705142658357*^9}},
- CellLabel->"In[6]:=",ExpressionUUID->"dd3673a9-fb2e-4e6b-bd50-579014e6c13a"],
-
-Cell[BoxData[
- TemplateBox[{
-  "Syntax", "sntxf", 
-   "\"\\\"\\!\\(\\*RowBox[{RowBox[{\\\"BasisList\\\", \\\"[\\\", \
-RowBox[{\\\"[\\\", \\\"i\\\", \\\"]\\\"}], \\\"]\\\"}]}]\\)\\\" cannot be \
-followed by \\\"\\!\\(\\*RowBox[{RowBox[{\\\"\\\\\\\\[\\\", \\\"Dot\\\", \
-\\\"]\\\"}], RowBox[{\\\"BasisList\\\", \\\"[\\\", RowBox[{\\\"[\\\", \\\"j\\\
-\", \\\"]\\\"}], \\\"]\\\"}]}]\\)\\\".\\!\\(\\*RowBox[{\\\"\\\\\\\"\\\\\\\"\\\
-\"}]\\)\"", 2, 8, 4, 25764956855658523749, "Local"},
-  "MessageTemplate",
-  BaseStyle->"MSG"]], "Message",
- CellChangeTimes->{3.977773994184334*^9},
- CellLabel->
-  "During evaluation of \
-In[8]:=",ExpressionUUID->"5fd424b2-a826-494f-a01e-1f477000ad63"]
-}, Open  ]],
+   3.944705142658357*^9}, 3.977782679441482*^9, {3.9777834751657877`*^9, 
+   3.977783477947578*^9}},
+ CellLabel->"In[7]:=",ExpressionUUID->"dd3673a9-fb2e-4e6b-bd50-579014e6c13a"],
 
 Cell[BoxData[
  RowBox[{
@@ -1454,8 +1444,7 @@ Cell[BoxData[
      RowBox[{"x", "=", 
       RowBox[{
        RowBox[{"BasisList", "[", 
-        RowBox[{"[", "i", "]"}], "]"}], 
-       RowBox[{"\\[", "Antidot", "]"}], 
+        RowBox[{"[", "i", "]"}], "]"}], "\[Antidot]", 
        RowBox[{"BasisList", "[", 
         RowBox[{"[", "j", "]"}], "]"}]}]}], ";", 
      RowBox[{"If", "[", 
@@ -1482,8 +1471,10 @@ Cell[BoxData[
    3.9063921866744003`*^9}, {3.906392249817413*^9, 3.9063922941176996`*^9}, 
    3.9063923521534543`*^9, {3.944705143387004*^9, 3.944705144065106*^9}, {
    3.9447838157375517`*^9, 3.9447838158050065`*^9}, {3.9448795299796295`*^9, 
-   3.9448795301433496`*^9}, {3.9449350690916233`*^9, 3.9449350700427685`*^9}},
- CellLabel->"In[6]:=",ExpressionUUID->"33f04615-0f85-4be1-a50a-98c768c411e3"],
+   3.9448795301433496`*^9}, {3.9449350690916233`*^9, 
+   3.9449350700427685`*^9}, {3.977782728221445*^9, 3.977782781387422*^9}, {
+   3.9777834799557858`*^9, 3.977783483679001*^9}},
+ CellLabel->"In[8]:=",ExpressionUUID->"33f04615-0f85-4be1-a50a-98c768c411e3"],
 
 Cell[CellGroupData[{
 
@@ -1613,7 +1604,7 @@ Cell[BoxData[
    3.906393134159522*^9}, {3.944705147911491*^9, 3.9447051562935195`*^9}, {
    3.9447838275575504`*^9, 3.9447838399623537`*^9}, {3.944879539331564*^9, 
    3.944879547449068*^9}, {3.944935074221912*^9, 3.944935080208754*^9}},
- CellLabel->"In[6]:=",ExpressionUUID->"fb7d68eb-b976-474d-85f6-a7a8db19323e"],
+ CellLabel->"In[9]:=",ExpressionUUID->"fb7d68eb-b976-474d-85f6-a7a8db19323e"],
 
 Cell[BoxData[
  FormBox[
@@ -1732,22 +1723,33 @@ Cell[BoxData[
          FontWeight->Bold],
         DisplayForm],
        TraditionalForm], 
-      RowBox[{"DotItem", "(", 
-       RowBox[{"1", ",", "1"}], ")"}], 
-      RowBox[{"DotItem", "(", 
-       RowBox[{"1", ",", "2"}], ")"}], 
-      RowBox[{"DotItem", "(", 
-       RowBox[{"1", ",", "3"}], ")"}], 
-      RowBox[{"DotItem", "(", 
-       RowBox[{"1", ",", "4"}], ")"}], 
-      RowBox[{"DotItem", "(", 
-       RowBox[{"1", ",", "5"}], ")"}], 
-      RowBox[{"DotItem", "(", 
-       RowBox[{"1", ",", "6"}], ")"}], 
-      RowBox[{"DotItem", "(", 
-       RowBox[{"1", ",", "7"}], ")"}], 
-      RowBox[{"DotItem", "(", 
-       RowBox[{"1", ",", "8"}], ")"}]},
+      ItemBox[
+       FormBox[
+        TagBox[
+         StyleBox["\<\"1\"\>",
+          StripOnInput->False,
+          FontFamily->"Times New Roman",
+          FontSize->16,
+          FontWeight->Bold],
+         DisplayForm],
+        TraditionalForm],
+       Background->RGBColor[
+        0.8666666666666667, 0.5568627450980392, 0.5568627450980392],
+       StripOnInput->False], 
+      ItemBox["0",
+       StripOnInput->False], 
+      ItemBox["0",
+       StripOnInput->False], 
+      ItemBox["0",
+       StripOnInput->False], 
+      ItemBox["0",
+       StripOnInput->False], 
+      ItemBox["0",
+       StripOnInput->False], 
+      ItemBox["0",
+       StripOnInput->False], 
+      ItemBox["0",
+       StripOnInput->False]},
      {
       FormBox[
        TagBox[
@@ -1763,22 +1765,33 @@ Cell[BoxData[
           FontSize->9]],
         DisplayForm],
        TraditionalForm], 
-      RowBox[{"DotItem", "(", 
-       RowBox[{"2", ",", "1"}], ")"}], 
-      RowBox[{"DotItem", "(", 
-       RowBox[{"2", ",", "2"}], ")"}], 
-      RowBox[{"DotItem", "(", 
-       RowBox[{"2", ",", "3"}], ")"}], 
-      RowBox[{"DotItem", "(", 
-       RowBox[{"2", ",", "4"}], ")"}], 
-      RowBox[{"DotItem", "(", 
-       RowBox[{"2", ",", "5"}], ")"}], 
-      RowBox[{"DotItem", "(", 
-       RowBox[{"2", ",", "6"}], ")"}], 
-      RowBox[{"DotItem", "(", 
-       RowBox[{"2", ",", "7"}], ")"}], 
-      RowBox[{"DotItem", "(", 
-       RowBox[{"2", ",", "8"}], ")"}]},
+      ItemBox["0",
+       StripOnInput->False], 
+      ItemBox[
+       FormBox[
+        TagBox[
+         StyleBox["\<\"1\"\>",
+          StripOnInput->False,
+          FontFamily->"Times New Roman",
+          FontSize->16,
+          FontWeight->Bold],
+         DisplayForm],
+        TraditionalForm],
+       Background->RGBColor[
+        0.8666666666666667, 0.5568627450980392, 0.5568627450980392],
+       StripOnInput->False], 
+      ItemBox["0",
+       StripOnInput->False], 
+      ItemBox["0",
+       StripOnInput->False], 
+      ItemBox["0",
+       StripOnInput->False], 
+      ItemBox["0",
+       StripOnInput->False], 
+      ItemBox["0",
+       StripOnInput->False], 
+      ItemBox["0",
+       StripOnInput->False]},
      {
       FormBox[
        TagBox[
@@ -1794,22 +1807,34 @@ Cell[BoxData[
           FontSize->9]],
         DisplayForm],
        TraditionalForm], 
-      RowBox[{"DotItem", "(", 
-       RowBox[{"3", ",", "1"}], ")"}], 
-      RowBox[{"DotItem", "(", 
-       RowBox[{"3", ",", "2"}], ")"}], 
-      RowBox[{"DotItem", "(", 
-       RowBox[{"3", ",", "3"}], ")"}], 
-      RowBox[{"DotItem", "(", 
-       RowBox[{"3", ",", "4"}], ")"}], 
-      RowBox[{"DotItem", "(", 
-       RowBox[{"3", ",", "5"}], ")"}], 
-      RowBox[{"DotItem", "(", 
-       RowBox[{"3", ",", "6"}], ")"}], 
-      RowBox[{"DotItem", "(", 
-       RowBox[{"3", ",", "7"}], ")"}], 
-      RowBox[{"DotItem", "(", 
-       RowBox[{"3", ",", "8"}], ")"}]},
+      ItemBox["0",
+       StripOnInput->False], 
+      ItemBox["0",
+       StripOnInput->False], 
+      ItemBox["0",
+       StripOnInput->False], 
+      ItemBox[
+       RowBox[{"-", 
+        FormBox[
+         TagBox[
+          StyleBox["\<\"1\"\>",
+           StripOnInput->False,
+           FontFamily->"Times New Roman",
+           FontSize->16,
+           FontWeight->Bold],
+          DisplayForm],
+         TraditionalForm]}],
+       Background->RGBColor[
+        0.8666666666666667, 0.5568627450980392, 0.5568627450980392],
+       StripOnInput->False], 
+      ItemBox["0",
+       StripOnInput->False], 
+      ItemBox["0",
+       StripOnInput->False], 
+      ItemBox["0",
+       StripOnInput->False], 
+      ItemBox["0",
+       StripOnInput->False]},
      {
       FormBox[
        TagBox[
@@ -1825,22 +1850,34 @@ Cell[BoxData[
           FontSize->9]],
         DisplayForm],
        TraditionalForm], 
-      RowBox[{"DotItem", "(", 
-       RowBox[{"4", ",", "1"}], ")"}], 
-      RowBox[{"DotItem", "(", 
-       RowBox[{"4", ",", "2"}], ")"}], 
-      RowBox[{"DotItem", "(", 
-       RowBox[{"4", ",", "3"}], ")"}], 
-      RowBox[{"DotItem", "(", 
-       RowBox[{"4", ",", "4"}], ")"}], 
-      RowBox[{"DotItem", "(", 
-       RowBox[{"4", ",", "5"}], ")"}], 
-      RowBox[{"DotItem", "(", 
-       RowBox[{"4", ",", "6"}], ")"}], 
-      RowBox[{"DotItem", "(", 
-       RowBox[{"4", ",", "7"}], ")"}], 
-      RowBox[{"DotItem", "(", 
-       RowBox[{"4", ",", "8"}], ")"}]},
+      ItemBox["0",
+       StripOnInput->False], 
+      ItemBox["0",
+       StripOnInput->False], 
+      ItemBox[
+       RowBox[{"-", 
+        FormBox[
+         TagBox[
+          StyleBox["\<\"1\"\>",
+           StripOnInput->False,
+           FontFamily->"Times New Roman",
+           FontSize->16,
+           FontWeight->Bold],
+          DisplayForm],
+         TraditionalForm]}],
+       Background->RGBColor[
+        0.8666666666666667, 0.5568627450980392, 0.5568627450980392],
+       StripOnInput->False], 
+      ItemBox["0",
+       StripOnInput->False], 
+      ItemBox["0",
+       StripOnInput->False], 
+      ItemBox["0",
+       StripOnInput->False], 
+      ItemBox["0",
+       StripOnInput->False], 
+      ItemBox["0",
+       StripOnInput->False]},
      {
       FormBox[
        TagBox[
@@ -1856,22 +1893,33 @@ Cell[BoxData[
           FontSize->9]],
         DisplayForm],
        TraditionalForm], 
-      RowBox[{"DotItem", "(", 
-       RowBox[{"5", ",", "1"}], ")"}], 
-      RowBox[{"DotItem", "(", 
-       RowBox[{"5", ",", "2"}], ")"}], 
-      RowBox[{"DotItem", "(", 
-       RowBox[{"5", ",", "3"}], ")"}], 
-      RowBox[{"DotItem", "(", 
-       RowBox[{"5", ",", "4"}], ")"}], 
-      RowBox[{"DotItem", "(", 
-       RowBox[{"5", ",", "5"}], ")"}], 
-      RowBox[{"DotItem", "(", 
-       RowBox[{"5", ",", "6"}], ")"}], 
-      RowBox[{"DotItem", "(", 
-       RowBox[{"5", ",", "7"}], ")"}], 
-      RowBox[{"DotItem", "(", 
-       RowBox[{"5", ",", "8"}], ")"}]},
+      ItemBox["0",
+       StripOnInput->False], 
+      ItemBox["0",
+       StripOnInput->False], 
+      ItemBox["0",
+       StripOnInput->False], 
+      ItemBox["0",
+       StripOnInput->False], 
+      ItemBox["0",
+       StripOnInput->False], 
+      ItemBox["0",
+       StripOnInput->False], 
+      ItemBox[
+       FormBox[
+        TagBox[
+         StyleBox["\<\"1\"\>",
+          StripOnInput->False,
+          FontFamily->"Times New Roman",
+          FontSize->16,
+          FontWeight->Bold],
+         DisplayForm],
+        TraditionalForm],
+       Background->RGBColor[
+        0.8666666666666667, 0.5568627450980392, 0.5568627450980392],
+       StripOnInput->False], 
+      ItemBox["0",
+       StripOnInput->False]},
      {
       FormBox[
        TagBox[
@@ -1887,22 +1935,34 @@ Cell[BoxData[
           FontSize->9]],
         DisplayForm],
        TraditionalForm], 
-      RowBox[{"DotItem", "(", 
-       RowBox[{"6", ",", "1"}], ")"}], 
-      RowBox[{"DotItem", "(", 
-       RowBox[{"6", ",", "2"}], ")"}], 
-      RowBox[{"DotItem", "(", 
-       RowBox[{"6", ",", "3"}], ")"}], 
-      RowBox[{"DotItem", "(", 
-       RowBox[{"6", ",", "4"}], ")"}], 
-      RowBox[{"DotItem", "(", 
-       RowBox[{"6", ",", "5"}], ")"}], 
-      RowBox[{"DotItem", "(", 
-       RowBox[{"6", ",", "6"}], ")"}], 
-      RowBox[{"DotItem", "(", 
-       RowBox[{"6", ",", "7"}], ")"}], 
-      RowBox[{"DotItem", "(", 
-       RowBox[{"6", ",", "8"}], ")"}]},
+      ItemBox["0",
+       StripOnInput->False], 
+      ItemBox["0",
+       StripOnInput->False], 
+      ItemBox["0",
+       StripOnInput->False], 
+      ItemBox["0",
+       StripOnInput->False], 
+      ItemBox["0",
+       StripOnInput->False], 
+      ItemBox[
+       RowBox[{"-", 
+        FormBox[
+         TagBox[
+          StyleBox["\<\"1\"\>",
+           StripOnInput->False,
+           FontFamily->"Times New Roman",
+           FontSize->16,
+           FontWeight->Bold],
+          DisplayForm],
+         TraditionalForm]}],
+       Background->RGBColor[
+        0.8666666666666667, 0.5568627450980392, 0.5568627450980392],
+       StripOnInput->False], 
+      ItemBox["0",
+       StripOnInput->False], 
+      ItemBox["0",
+       StripOnInput->False]},
      {
       FormBox[
        TagBox[
@@ -1918,22 +1978,33 @@ Cell[BoxData[
           FontSize->9]],
         DisplayForm],
        TraditionalForm], 
-      RowBox[{"DotItem", "(", 
-       RowBox[{"7", ",", "1"}], ")"}], 
-      RowBox[{"DotItem", "(", 
-       RowBox[{"7", ",", "2"}], ")"}], 
-      RowBox[{"DotItem", "(", 
-       RowBox[{"7", ",", "3"}], ")"}], 
-      RowBox[{"DotItem", "(", 
-       RowBox[{"7", ",", "4"}], ")"}], 
-      RowBox[{"DotItem", "(", 
-       RowBox[{"7", ",", "5"}], ")"}], 
-      RowBox[{"DotItem", "(", 
-       RowBox[{"7", ",", "6"}], ")"}], 
-      RowBox[{"DotItem", "(", 
-       RowBox[{"7", ",", "7"}], ")"}], 
-      RowBox[{"DotItem", "(", 
-       RowBox[{"7", ",", "8"}], ")"}]},
+      ItemBox["0",
+       StripOnInput->False], 
+      ItemBox["0",
+       StripOnInput->False], 
+      ItemBox["0",
+       StripOnInput->False], 
+      ItemBox["0",
+       StripOnInput->False], 
+      ItemBox[
+       FormBox[
+        TagBox[
+         StyleBox["\<\"1\"\>",
+          StripOnInput->False,
+          FontFamily->"Times New Roman",
+          FontSize->16,
+          FontWeight->Bold],
+         DisplayForm],
+        TraditionalForm],
+       Background->RGBColor[
+        0.8666666666666667, 0.5568627450980392, 0.5568627450980392],
+       StripOnInput->False], 
+      ItemBox["0",
+       StripOnInput->False], 
+      ItemBox["0",
+       StripOnInput->False], 
+      ItemBox["0",
+       StripOnInput->False]},
      {
       FormBox[
        TagBox[
@@ -1942,22 +2013,34 @@ Cell[BoxData[
          FontSize->16],
         DisplayForm],
        TraditionalForm], 
-      RowBox[{"DotItem", "(", 
-       RowBox[{"8", ",", "1"}], ")"}], 
-      RowBox[{"DotItem", "(", 
-       RowBox[{"8", ",", "2"}], ")"}], 
-      RowBox[{"DotItem", "(", 
-       RowBox[{"8", ",", "3"}], ")"}], 
-      RowBox[{"DotItem", "(", 
-       RowBox[{"8", ",", "4"}], ")"}], 
-      RowBox[{"DotItem", "(", 
-       RowBox[{"8", ",", "5"}], ")"}], 
-      RowBox[{"DotItem", "(", 
-       RowBox[{"8", ",", "6"}], ")"}], 
-      RowBox[{"DotItem", "(", 
-       RowBox[{"8", ",", "7"}], ")"}], 
-      RowBox[{"DotItem", "(", 
-       RowBox[{"8", ",", "8"}], ")"}]}
+      ItemBox["0",
+       StripOnInput->False], 
+      ItemBox["0",
+       StripOnInput->False], 
+      ItemBox["0",
+       StripOnInput->False], 
+      ItemBox["0",
+       StripOnInput->False], 
+      ItemBox["0",
+       StripOnInput->False], 
+      ItemBox["0",
+       StripOnInput->False], 
+      ItemBox["0",
+       StripOnInput->False], 
+      ItemBox[
+       RowBox[{"-", 
+        FormBox[
+         TagBox[
+          StyleBox["\<\"1\"\>",
+           StripOnInput->False,
+           FontFamily->"Times New Roman",
+           FontSize->16,
+           FontWeight->Bold],
+          DisplayForm],
+         TraditionalForm]}],
+       Background->RGBColor[
+        0.8666666666666667, 0.5568627450980392, 0.5568627450980392],
+       StripOnInput->False]}
     },
     AutoDelete->False,
     GridBoxBackground->{"Columns" -> {{None}}, "Rows" -> {
@@ -1992,10 +2075,12 @@ Cell[BoxData[
    3.9448795478439445`*^9, 3.944879598554426*^9}, 3.9448834560710745`*^9, 
    3.944935080494596*^9, 3.9449363244641666`*^9, 3.944960964590513*^9, 
    3.9568771441138644`*^9, 3.977773907707178*^9, 3.97777396138092*^9, 
-   3.977775014420639*^9, 3.977775315671419*^9},
+   3.977775014420639*^9, 3.977775315671419*^9, 3.9777821017146063`*^9, 
+   3.977782701209059*^9, 3.97778275633148*^9, 3.977782807986579*^9, 
+   3.97778289557978*^9, 3.9777835331618147`*^9},
  CellLabel->
-  "Out[6]//TraditionalForm=",ExpressionUUID->"5a32bf91-3acb-47d7-a311-\
-693aa9c77b07"]
+  "Out[9]//TraditionalForm=",ExpressionUUID->"ba6cbc2a-c123-4d05-9c6a-\
+a658d41c2c1a"]
 }, Open  ]]
 }, Open  ]],
 
@@ -2128,7 +2213,7 @@ Cell[BoxData[
    3.94470518512145*^9}, {3.944783879153228*^9, 3.9447838830645046`*^9}, {
    3.944879608436248*^9, 3.9448796166986494`*^9}, {3.944935089974427*^9, 
    3.944935093275343*^9}},
- CellLabel->"In[7]:=",ExpressionUUID->"e1ce0ef5-ff00-4a4e-b29a-4de1138f258b"],
+ CellLabel->"In[10]:=",ExpressionUUID->"e1ce0ef5-ff00-4a4e-b29a-4de1138f258b"],
 
 Cell[BoxData[
  FormBox[
@@ -2247,22 +2332,32 @@ Cell[BoxData[
          FontWeight->Bold],
         DisplayForm],
        TraditionalForm], 
-      RowBox[{"AntidotItem", "(", 
-       RowBox[{"1", ",", "1"}], ")"}], 
-      RowBox[{"AntidotItem", "(", 
-       RowBox[{"1", ",", "2"}], ")"}], 
-      RowBox[{"AntidotItem", "(", 
-       RowBox[{"1", ",", "3"}], ")"}], 
-      RowBox[{"AntidotItem", "(", 
-       RowBox[{"1", ",", "4"}], ")"}], 
-      RowBox[{"AntidotItem", "(", 
-       RowBox[{"1", ",", "5"}], ")"}], 
-      RowBox[{"AntidotItem", "(", 
-       RowBox[{"1", ",", "6"}], ")"}], 
-      RowBox[{"AntidotItem", "(", 
-       RowBox[{"1", ",", "7"}], ")"}], 
-      RowBox[{"AntidotItem", "(", 
-       RowBox[{"1", ",", "8"}], ")"}]},
+      ItemBox[
+       RowBox[{"-", 
+        FormBox[
+         TagBox[
+          StyleBox["\|01d7d9",
+           FontFamily->"Segoe UI Symbol",
+           FontSize->16],
+          DisplayForm],
+         TraditionalForm]}],
+       Background->RGBColor[
+        0.8666666666666667, 0.5568627450980392, 0.5568627450980392],
+       StripOnInput->False], 
+      ItemBox["0",
+       StripOnInput->False], 
+      ItemBox["0",
+       StripOnInput->False], 
+      ItemBox["0",
+       StripOnInput->False], 
+      ItemBox["0",
+       StripOnInput->False], 
+      ItemBox["0",
+       StripOnInput->False], 
+      ItemBox["0",
+       StripOnInput->False], 
+      ItemBox["0",
+       StripOnInput->False]},
      {
       FormBox[
        TagBox[
@@ -2278,22 +2373,32 @@ Cell[BoxData[
           FontSize->9]],
         DisplayForm],
        TraditionalForm], 
-      RowBox[{"AntidotItem", "(", 
-       RowBox[{"2", ",", "1"}], ")"}], 
-      RowBox[{"AntidotItem", "(", 
-       RowBox[{"2", ",", "2"}], ")"}], 
-      RowBox[{"AntidotItem", "(", 
-       RowBox[{"2", ",", "3"}], ")"}], 
-      RowBox[{"AntidotItem", "(", 
-       RowBox[{"2", ",", "4"}], ")"}], 
-      RowBox[{"AntidotItem", "(", 
-       RowBox[{"2", ",", "5"}], ")"}], 
-      RowBox[{"AntidotItem", "(", 
-       RowBox[{"2", ",", "6"}], ")"}], 
-      RowBox[{"AntidotItem", "(", 
-       RowBox[{"2", ",", "7"}], ")"}], 
-      RowBox[{"AntidotItem", "(", 
-       RowBox[{"2", ",", "8"}], ")"}]},
+      ItemBox["0",
+       StripOnInput->False], 
+      ItemBox[
+       RowBox[{"-", 
+        FormBox[
+         TagBox[
+          StyleBox["\|01d7d9",
+           FontFamily->"Segoe UI Symbol",
+           FontSize->16],
+          DisplayForm],
+         TraditionalForm]}],
+       Background->RGBColor[
+        0.8666666666666667, 0.5568627450980392, 0.5568627450980392],
+       StripOnInput->False], 
+      ItemBox["0",
+       StripOnInput->False], 
+      ItemBox["0",
+       StripOnInput->False], 
+      ItemBox["0",
+       StripOnInput->False], 
+      ItemBox["0",
+       StripOnInput->False], 
+      ItemBox["0",
+       StripOnInput->False], 
+      ItemBox["0",
+       StripOnInput->False]},
      {
       FormBox[
        TagBox[
@@ -2309,22 +2414,31 @@ Cell[BoxData[
           FontSize->9]],
         DisplayForm],
        TraditionalForm], 
-      RowBox[{"AntidotItem", "(", 
-       RowBox[{"3", ",", "1"}], ")"}], 
-      RowBox[{"AntidotItem", "(", 
-       RowBox[{"3", ",", "2"}], ")"}], 
-      RowBox[{"AntidotItem", "(", 
-       RowBox[{"3", ",", "3"}], ")"}], 
-      RowBox[{"AntidotItem", "(", 
-       RowBox[{"3", ",", "4"}], ")"}], 
-      RowBox[{"AntidotItem", "(", 
-       RowBox[{"3", ",", "5"}], ")"}], 
-      RowBox[{"AntidotItem", "(", 
-       RowBox[{"3", ",", "6"}], ")"}], 
-      RowBox[{"AntidotItem", "(", 
-       RowBox[{"3", ",", "7"}], ")"}], 
-      RowBox[{"AntidotItem", "(", 
-       RowBox[{"3", ",", "8"}], ")"}]},
+      ItemBox["0",
+       StripOnInput->False], 
+      ItemBox["0",
+       StripOnInput->False], 
+      ItemBox["0",
+       StripOnInput->False], 
+      ItemBox[
+       FormBox[
+        TagBox[
+         StyleBox["\|01d7d9",
+          FontFamily->"Segoe UI Symbol",
+          FontSize->16],
+         DisplayForm],
+        TraditionalForm],
+       Background->RGBColor[
+        0.8666666666666667, 0.5568627450980392, 0.5568627450980392],
+       StripOnInput->False], 
+      ItemBox["0",
+       StripOnInput->False], 
+      ItemBox["0",
+       StripOnInput->False], 
+      ItemBox["0",
+       StripOnInput->False], 
+      ItemBox["0",
+       StripOnInput->False]},
      {
       FormBox[
        TagBox[
@@ -2340,22 +2454,31 @@ Cell[BoxData[
           FontSize->9]],
         DisplayForm],
        TraditionalForm], 
-      RowBox[{"AntidotItem", "(", 
-       RowBox[{"4", ",", "1"}], ")"}], 
-      RowBox[{"AntidotItem", "(", 
-       RowBox[{"4", ",", "2"}], ")"}], 
-      RowBox[{"AntidotItem", "(", 
-       RowBox[{"4", ",", "3"}], ")"}], 
-      RowBox[{"AntidotItem", "(", 
-       RowBox[{"4", ",", "4"}], ")"}], 
-      RowBox[{"AntidotItem", "(", 
-       RowBox[{"4", ",", "5"}], ")"}], 
-      RowBox[{"AntidotItem", "(", 
-       RowBox[{"4", ",", "6"}], ")"}], 
-      RowBox[{"AntidotItem", "(", 
-       RowBox[{"4", ",", "7"}], ")"}], 
-      RowBox[{"AntidotItem", "(", 
-       RowBox[{"4", ",", "8"}], ")"}]},
+      ItemBox["0",
+       StripOnInput->False], 
+      ItemBox["0",
+       StripOnInput->False], 
+      ItemBox[
+       FormBox[
+        TagBox[
+         StyleBox["\|01d7d9",
+          FontFamily->"Segoe UI Symbol",
+          FontSize->16],
+         DisplayForm],
+        TraditionalForm],
+       Background->RGBColor[
+        0.8666666666666667, 0.5568627450980392, 0.5568627450980392],
+       StripOnInput->False], 
+      ItemBox["0",
+       StripOnInput->False], 
+      ItemBox["0",
+       StripOnInput->False], 
+      ItemBox["0",
+       StripOnInput->False], 
+      ItemBox["0",
+       StripOnInput->False], 
+      ItemBox["0",
+       StripOnInput->False]},
      {
       FormBox[
        TagBox[
@@ -2371,22 +2494,32 @@ Cell[BoxData[
           FontSize->9]],
         DisplayForm],
        TraditionalForm], 
-      RowBox[{"AntidotItem", "(", 
-       RowBox[{"5", ",", "1"}], ")"}], 
-      RowBox[{"AntidotItem", "(", 
-       RowBox[{"5", ",", "2"}], ")"}], 
-      RowBox[{"AntidotItem", "(", 
-       RowBox[{"5", ",", "3"}], ")"}], 
-      RowBox[{"AntidotItem", "(", 
-       RowBox[{"5", ",", "4"}], ")"}], 
-      RowBox[{"AntidotItem", "(", 
-       RowBox[{"5", ",", "5"}], ")"}], 
-      RowBox[{"AntidotItem", "(", 
-       RowBox[{"5", ",", "6"}], ")"}], 
-      RowBox[{"AntidotItem", "(", 
-       RowBox[{"5", ",", "7"}], ")"}], 
-      RowBox[{"AntidotItem", "(", 
-       RowBox[{"5", ",", "8"}], ")"}]},
+      ItemBox["0",
+       StripOnInput->False], 
+      ItemBox["0",
+       StripOnInput->False], 
+      ItemBox["0",
+       StripOnInput->False], 
+      ItemBox["0",
+       StripOnInput->False], 
+      ItemBox["0",
+       StripOnInput->False], 
+      ItemBox["0",
+       StripOnInput->False], 
+      ItemBox[
+       RowBox[{"-", 
+        FormBox[
+         TagBox[
+          StyleBox["\|01d7d9",
+           FontFamily->"Segoe UI Symbol",
+           FontSize->16],
+          DisplayForm],
+         TraditionalForm]}],
+       Background->RGBColor[
+        0.8666666666666667, 0.5568627450980392, 0.5568627450980392],
+       StripOnInput->False], 
+      ItemBox["0",
+       StripOnInput->False]},
      {
       FormBox[
        TagBox[
@@ -2402,22 +2535,31 @@ Cell[BoxData[
           FontSize->9]],
         DisplayForm],
        TraditionalForm], 
-      RowBox[{"AntidotItem", "(", 
-       RowBox[{"6", ",", "1"}], ")"}], 
-      RowBox[{"AntidotItem", "(", 
-       RowBox[{"6", ",", "2"}], ")"}], 
-      RowBox[{"AntidotItem", "(", 
-       RowBox[{"6", ",", "3"}], ")"}], 
-      RowBox[{"AntidotItem", "(", 
-       RowBox[{"6", ",", "4"}], ")"}], 
-      RowBox[{"AntidotItem", "(", 
-       RowBox[{"6", ",", "5"}], ")"}], 
-      RowBox[{"AntidotItem", "(", 
-       RowBox[{"6", ",", "6"}], ")"}], 
-      RowBox[{"AntidotItem", "(", 
-       RowBox[{"6", ",", "7"}], ")"}], 
-      RowBox[{"AntidotItem", "(", 
-       RowBox[{"6", ",", "8"}], ")"}]},
+      ItemBox["0",
+       StripOnInput->False], 
+      ItemBox["0",
+       StripOnInput->False], 
+      ItemBox["0",
+       StripOnInput->False], 
+      ItemBox["0",
+       StripOnInput->False], 
+      ItemBox["0",
+       StripOnInput->False], 
+      ItemBox[
+       FormBox[
+        TagBox[
+         StyleBox["\|01d7d9",
+          FontFamily->"Segoe UI Symbol",
+          FontSize->16],
+         DisplayForm],
+        TraditionalForm],
+       Background->RGBColor[
+        0.8666666666666667, 0.5568627450980392, 0.5568627450980392],
+       StripOnInput->False], 
+      ItemBox["0",
+       StripOnInput->False], 
+      ItemBox["0",
+       StripOnInput->False]},
      {
       FormBox[
        TagBox[
@@ -2433,22 +2575,32 @@ Cell[BoxData[
           FontSize->9]],
         DisplayForm],
        TraditionalForm], 
-      RowBox[{"AntidotItem", "(", 
-       RowBox[{"7", ",", "1"}], ")"}], 
-      RowBox[{"AntidotItem", "(", 
-       RowBox[{"7", ",", "2"}], ")"}], 
-      RowBox[{"AntidotItem", "(", 
-       RowBox[{"7", ",", "3"}], ")"}], 
-      RowBox[{"AntidotItem", "(", 
-       RowBox[{"7", ",", "4"}], ")"}], 
-      RowBox[{"AntidotItem", "(", 
-       RowBox[{"7", ",", "5"}], ")"}], 
-      RowBox[{"AntidotItem", "(", 
-       RowBox[{"7", ",", "6"}], ")"}], 
-      RowBox[{"AntidotItem", "(", 
-       RowBox[{"7", ",", "7"}], ")"}], 
-      RowBox[{"AntidotItem", "(", 
-       RowBox[{"7", ",", "8"}], ")"}]},
+      ItemBox["0",
+       StripOnInput->False], 
+      ItemBox["0",
+       StripOnInput->False], 
+      ItemBox["0",
+       StripOnInput->False], 
+      ItemBox["0",
+       StripOnInput->False], 
+      ItemBox[
+       RowBox[{"-", 
+        FormBox[
+         TagBox[
+          StyleBox["\|01d7d9",
+           FontFamily->"Segoe UI Symbol",
+           FontSize->16],
+          DisplayForm],
+         TraditionalForm]}],
+       Background->RGBColor[
+        0.8666666666666667, 0.5568627450980392, 0.5568627450980392],
+       StripOnInput->False], 
+      ItemBox["0",
+       StripOnInput->False], 
+      ItemBox["0",
+       StripOnInput->False], 
+      ItemBox["0",
+       StripOnInput->False]},
      {
       FormBox[
        TagBox[
@@ -2457,22 +2609,31 @@ Cell[BoxData[
          FontSize->16],
         DisplayForm],
        TraditionalForm], 
-      RowBox[{"AntidotItem", "(", 
-       RowBox[{"8", ",", "1"}], ")"}], 
-      RowBox[{"AntidotItem", "(", 
-       RowBox[{"8", ",", "2"}], ")"}], 
-      RowBox[{"AntidotItem", "(", 
-       RowBox[{"8", ",", "3"}], ")"}], 
-      RowBox[{"AntidotItem", "(", 
-       RowBox[{"8", ",", "4"}], ")"}], 
-      RowBox[{"AntidotItem", "(", 
-       RowBox[{"8", ",", "5"}], ")"}], 
-      RowBox[{"AntidotItem", "(", 
-       RowBox[{"8", ",", "6"}], ")"}], 
-      RowBox[{"AntidotItem", "(", 
-       RowBox[{"8", ",", "7"}], ")"}], 
-      RowBox[{"AntidotItem", "(", 
-       RowBox[{"8", ",", "8"}], ")"}]}
+      ItemBox["0",
+       StripOnInput->False], 
+      ItemBox["0",
+       StripOnInput->False], 
+      ItemBox["0",
+       StripOnInput->False], 
+      ItemBox["0",
+       StripOnInput->False], 
+      ItemBox["0",
+       StripOnInput->False], 
+      ItemBox["0",
+       StripOnInput->False], 
+      ItemBox["0",
+       StripOnInput->False], 
+      ItemBox[
+       FormBox[
+        TagBox[
+         StyleBox["\|01d7d9",
+          FontFamily->"Segoe UI Symbol",
+          FontSize->16],
+         DisplayForm],
+        TraditionalForm],
+       Background->RGBColor[
+        0.8666666666666667, 0.5568627450980392, 0.5568627450980392],
+       StripOnInput->False]}
     },
     AutoDelete->False,
     GridBoxBackground->{"Columns" -> {{None}}, "Rows" -> {
@@ -2506,10 +2667,11 @@ Cell[BoxData[
   3.944845254278693*^9, 3.944879616951219*^9, 3.944883456115119*^9, 
   3.944935093849387*^9, 3.944936324492676*^9, 3.9449609646100283`*^9, 
   3.956877144132864*^9, 3.97777390771665*^9, 3.977775014432145*^9, 
-  3.9777753156833563`*^9},
+  3.9777753156833563`*^9, 3.977782101735033*^9, 3.977782758937181*^9, 
+  3.97778280800424*^9, 3.977782895599596*^9, 3.977783533178027*^9},
  CellLabel->
-  "Out[7]//TraditionalForm=",ExpressionUUID->"b7ff04a1-5b7d-44a0-a138-\
-c9d29d7e0c0e"]
+  "Out[10]//TraditionalForm=",ExpressionUUID->"8d8a7481-d809-42bd-be03-\
+ff81fba8d8fb"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]],
@@ -2552,7 +2714,7 @@ Cell[BoxData[
    3.906220546816337*^9}, {3.906220756197089*^9, 3.90622083070398*^9}, {
    3.9062210914064426`*^9, 3.906221093031598*^9}, {3.9062230490091047`*^9, 
    3.906223091193108*^9}, {3.944705233813636*^9, 3.9447052348721266`*^9}},
- CellLabel->"In[8]:=",ExpressionUUID->"afeac85e-dd3d-4c7a-94a7-7dad459c6eed"],
+ CellLabel->"In[11]:=",ExpressionUUID->"afeac85e-dd3d-4c7a-94a7-7dad459c6eed"],
 
 Cell[BoxData[
  RowBox[{
@@ -2584,7 +2746,7 @@ Cell[BoxData[
    3.866335218675579*^9}, {3.866335323299609*^9, 3.8663353267591815`*^9}, 
    3.8771942043816633`*^9, {3.9062211002527866`*^9, 3.906221101830902*^9}, {
    3.9447052357426567`*^9, 3.944705236529074*^9}},
- CellLabel->"In[9]:=",ExpressionUUID->"d8be0c0c-4b75-4877-8042-d802c09ba6d2"],
+ CellLabel->"In[12]:=",ExpressionUUID->"d8be0c0c-4b75-4877-8042-d802c09ba6d2"],
 
 Cell[CellGroupData[{
 
@@ -2714,7 +2876,7 @@ Cell[BoxData[
    3.9447052479197264`*^9}, {3.944783969526858*^9, 3.9447839732571173`*^9}, {
    3.9448796319670305`*^9, 3.9448796377817993`*^9}, {3.9449351337258453`*^9, 
    3.9449351368854675`*^9}},
- CellLabel->"In[10]:=",ExpressionUUID->"a3dc4c85-10b5-4291-8d32-2c0c07b666c7"],
+ CellLabel->"In[13]:=",ExpressionUUID->"a3dc4c85-10b5-4291-8d32-2c0c07b666c7"],
 
 Cell[BoxData[
  FormBox[
@@ -3439,10 +3601,11 @@ Cell[BoxData[
   3.9448452544209642`*^9, 3.9448796392847476`*^9, 3.9448834561781707`*^9, 
   3.9449351380325356`*^9, 3.944936324540702*^9, 3.9449609646395493`*^9, 
   3.956877144172372*^9, 3.977773907743732*^9, 3.97777427773455*^9, 
-  3.9777750144617243`*^9, 3.977775315708578*^9},
+  3.9777750144617243`*^9, 3.977775315708578*^9, 3.9777821017706623`*^9, 
+  3.9777828080301933`*^9, 3.977782895629601*^9, 3.977783533204186*^9},
  CellLabel->
-  "Out[10]//TraditionalForm=",ExpressionUUID->"0df58226-904c-4a43-9fa9-\
-da3ee14f72c6"]
+  "Out[13]//TraditionalForm=",ExpressionUUID->"ce8fa8d8-b408-47a1-8b87-\
+62783e1ba3db"]
 }, Open  ]]
 }, Open  ]],
 
@@ -3571,7 +3734,7 @@ Cell[BoxData[
    3.944705249338589*^9}, {3.944784009483137*^9, 3.9447840129848576`*^9}, {
    3.9448796469782977`*^9, 3.944879653070537*^9}, {3.9449351427698307`*^9, 
    3.9449351467595043`*^9}},
- CellLabel->"In[11]:=",ExpressionUUID->"f1ec774d-014e-4ca2-9567-e1bf2eaac552"],
+ CellLabel->"In[14]:=",ExpressionUUID->"f1ec774d-014e-4ca2-9567-e1bf2eaac552"],
 
 Cell[BoxData[
  FormBox[
@@ -4310,10 +4473,11 @@ Cell[BoxData[
   3.9448452545689025`*^9, 3.944879653742996*^9, 3.9448834562317057`*^9, 
   3.9449351472825756`*^9, 3.944936324578224*^9, 3.944960964662567*^9, 
   3.956877144197874*^9, 3.9777739077627363`*^9, 3.9777742813165407`*^9, 
-  3.9777750144766407`*^9, 3.977775315725638*^9},
+  3.9777750144766407`*^9, 3.977775315725638*^9, 3.9777821017933807`*^9, 
+  3.977782808052815*^9, 3.977782895649847*^9, 3.977783533215597*^9},
  CellLabel->
-  "Out[11]//TraditionalForm=",ExpressionUUID->"3f9c7dc7-48ec-41ba-9d1f-\
-fd151bad714d"]
+  "Out[14]//TraditionalForm=",ExpressionUUID->"fed8debf-fa0d-4602-873e-\
+a67422348f8c"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]],
@@ -4372,7 +4536,7 @@ Cell[BoxData[
    3.906221828175343*^9}, {3.9063957478475246`*^9, 3.90639574952171*^9}, {
    3.9447054242113714`*^9, 3.9447054288800545`*^9}, {3.9447841339901295`*^9, 
    3.944784142913968*^9}},
- CellLabel->"In[12]:=",ExpressionUUID->"3bbb0508-1e35-4ebf-90be-3087ba4ee9f5"],
+ CellLabel->"In[15]:=",ExpressionUUID->"3bbb0508-1e35-4ebf-90be-3087ba4ee9f5"],
 
 Cell[BoxData[
  RowBox[{
@@ -4423,7 +4587,7 @@ Cell[BoxData[
    3.9062231781345167`*^9}, {3.9062233258929033`*^9, 3.906223435711377*^9}, {
    3.9063955735666323`*^9, 3.9063955761841173`*^9}, {3.9447054325929623`*^9, 
    3.944705433395976*^9}, {3.9447841375514164`*^9, 3.9447841448875713`*^9}},
- CellLabel->"In[13]:=",ExpressionUUID->"77781158-7a0c-4b28-98f0-3b6cfbbc8fd3"],
+ CellLabel->"In[16]:=",ExpressionUUID->"77781158-7a0c-4b28-98f0-3b6cfbbc8fd3"],
 
 Cell[CellGroupData[{
 
@@ -4551,7 +4715,7 @@ Cell[BoxData[
    3.944705646545594*^9, 3.944705649047109*^9}, {3.9447841534270115`*^9, 
    3.944784162820947*^9}, {3.944879678395043*^9, 3.944879684598405*^9}, {
    3.9449351575691843`*^9, 3.944935161089525*^9}},
- CellLabel->"In[14]:=",ExpressionUUID->"8cbb7dc9-b376-4b1f-a386-8e6045f89289"],
+ CellLabel->"In[17]:=",ExpressionUUID->"8cbb7dc9-b376-4b1f-a386-8e6045f89289"],
 
 Cell[BoxData[
  FormBox[
@@ -5301,10 +5465,11 @@ Cell[BoxData[
   3.9448452547364864`*^9, 3.9448796849426403`*^9, 3.9448834563034563`*^9, 
   3.944935161932143*^9, 3.944936324624256*^9, 3.9449609647056365`*^9, 
   3.9568771442411685`*^9, 3.977773907790079*^9, 3.977774287124662*^9, 
-  3.977775014497076*^9, 3.9777753157461147`*^9},
+  3.977775014497076*^9, 3.9777753157461147`*^9, 3.9777821018321533`*^9, 
+  3.977782808085956*^9, 3.977782895681489*^9, 3.9777835332407417`*^9},
  CellLabel->
-  "Out[14]//TraditionalForm=",ExpressionUUID->"7766298f-d2d0-48bc-9da8-\
-da7d37652732"]
+  "Out[17]//TraditionalForm=",ExpressionUUID->"8e5ce3cb-6bc4-4802-a847-\
+d28add9ce430"]
 }, Open  ]]
 }, Open  ]],
 
@@ -5433,7 +5598,7 @@ Cell[BoxData[
    3.9447054445447817`*^9, 3.944705457390812*^9}, {3.944784368344184*^9, 
    3.9447843736626244`*^9}, {3.9448797010392895`*^9, 
    3.9448797063654847`*^9}, {3.944935167202035*^9, 3.9449351707550974`*^9}},
- CellLabel->"In[15]:=",ExpressionUUID->"c519839b-9349-4d21-a06f-9060b8396fa6"],
+ CellLabel->"In[18]:=",ExpressionUUID->"c519839b-9349-4d21-a06f-9060b8396fa6"],
 
 Cell[BoxData[
  FormBox[
@@ -6169,10 +6334,11 @@ Cell[BoxData[
   3.9448452548810625`*^9, 3.944879720430168*^9, 3.944883456357498*^9, 
   3.9449351713127995`*^9, 3.9449363246502666`*^9, 3.9449609647286468`*^9, 
   3.9568771442646685`*^9, 3.977773907801805*^9, 3.977774289006757*^9, 
-  3.977775014512755*^9, 3.977775315761903*^9},
+  3.977775014512755*^9, 3.977775315761903*^9, 3.977782101853166*^9, 
+  3.977782808105452*^9, 3.977782895702808*^9, 3.977783533259182*^9},
  CellLabel->
-  "Out[15]//TraditionalForm=",ExpressionUUID->"602af9ae-0009-4ab7-b18f-\
-afc13c86c0af"]
+  "Out[18]//TraditionalForm=",ExpressionUUID->"61d1c0c5-57af-4ce3-8bbf-\
+1df8815031dd"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]],
@@ -6197,8 +6363,7 @@ Cell[BoxData[
       RowBox[{"Simplify", "[", 
        RowBox[{
         RowBox[{"BasisList", "[", 
-         RowBox[{"[", "i", "]"}], "]"}], 
-        RowBox[{"\\[", "Geometric", "]"}], 
+         RowBox[{"[", "i", "]"}], "]"}], "\[Geometric]", 
         RowBox[{"BasisList", "[", 
          RowBox[{"[", "j", "]"}], "]"}]}], "]"}]}], ";", 
      RowBox[{"w", "=", 
@@ -6243,8 +6408,8 @@ Cell[BoxData[
    3.8663922918340316`*^9}, 3.866393850864199*^9, 3.877194157914523*^9, 
    3.8771941906814585`*^9, {3.906221932398815*^9, 3.906221945251916*^9}, {
    3.944705759353657*^9, 3.9447057668134356`*^9}, {3.9447844985317*^9, 
-   3.9447845026791735`*^9}},
- CellLabel->"In[16]:=",ExpressionUUID->"1716326c-d510-4709-a73a-2fec78f616f6"],
+   3.9447845026791735`*^9}, 3.977782839086197*^9},
+ CellLabel->"In[19]:=",ExpressionUUID->"1716326c-d510-4709-a73a-2fec78f616f6"],
 
 Cell[BoxData[
  RowBox[{
@@ -6259,8 +6424,7 @@ Cell[BoxData[
       RowBox[{"Simplify", "[", 
        RowBox[{
         RowBox[{"BasisList", "[", 
-         RowBox[{"[", "i", "]"}], "]"}], 
-        RowBox[{"\\[", "Antigeometric", "]"}], 
+         RowBox[{"[", "i", "]"}], "]"}], "\[Antigeometric]", 
         RowBox[{"BasisList", "[", 
          RowBox[{"[", "j", "]"}], "]"}]}], "]"}]}], ";", 
      RowBox[{"w", "=", 
@@ -6305,8 +6469,8 @@ Cell[BoxData[
    3.8663922918340316`*^9}, {3.866393850864199*^9, 3.866393882474639*^9}, 
    3.8771941536209283`*^9, 3.8771941947171917`*^9, {3.906222060213418*^9, 
    3.906222068525795*^9}, {3.9447057689227467`*^9, 3.9447057713016744`*^9}, {
-   3.9447845058317904`*^9, 3.944784509509305*^9}},
- CellLabel->"In[16]:=",ExpressionUUID->"4e78d5e0-85b5-4fbf-a8fc-aae747f03b33"],
+   3.9447845058317904`*^9, 3.944784509509305*^9}, 3.9777828643157177`*^9},
+ CellLabel->"In[20]:=",ExpressionUUID->"4e78d5e0-85b5-4fbf-a8fc-aae747f03b33"],
 
 Cell[CellGroupData[{
 
@@ -6441,7 +6605,7 @@ Cell[BoxData[
    3.9447057971377363`*^9}, {3.944784445617016*^9, 3.944784469621849*^9}, {
    3.9448797307140765`*^9, 3.94487975776988*^9}, {3.9449351854621444`*^9, 
    3.9449352175831347`*^9}, {3.9449352944614754`*^9, 3.944935295127417*^9}},
- CellLabel->"In[16]:=",ExpressionUUID->"4111488a-d7ad-43d9-b961-ee2e74cef2a4"],
+ CellLabel->"In[21]:=",ExpressionUUID->"4111488a-d7ad-43d9-b961-ee2e74cef2a4"],
 
 Cell[BoxData[
  FormBox[
@@ -6560,22 +6724,131 @@ Cell[BoxData[
          FontWeight->Bold],
         DisplayForm],
        TraditionalForm], 
-      RowBox[{"GeometricItem", "(", 
-       RowBox[{"1", ",", "1"}], ")"}], 
-      RowBox[{"GeometricItem", "(", 
-       RowBox[{"1", ",", "2"}], ")"}], 
-      RowBox[{"GeometricItem", "(", 
-       RowBox[{"1", ",", "3"}], ")"}], 
-      RowBox[{"GeometricItem", "(", 
-       RowBox[{"1", ",", "4"}], ")"}], 
-      RowBox[{"GeometricItem", "(", 
-       RowBox[{"1", ",", "5"}], ")"}], 
-      RowBox[{"GeometricItem", "(", 
-       RowBox[{"1", ",", "6"}], ")"}], 
-      RowBox[{"GeometricItem", "(", 
-       RowBox[{"1", ",", "7"}], ")"}], 
-      RowBox[{"GeometricItem", "(", 
-       RowBox[{"1", ",", "8"}], ")"}]},
+      ItemBox[
+       FormBox[
+        TagBox[
+         StyleBox["\<\"1\"\>",
+          StripOnInput->False,
+          FontFamily->"Times New Roman",
+          FontSize->16,
+          FontWeight->Bold],
+         DisplayForm],
+        TraditionalForm],
+       Background->RGBColor[
+        0.8666666666666667, 0.5568627450980392, 0.5568627450980392],
+       StripOnInput->False], 
+      ItemBox[
+       FormBox[
+        TagBox[
+         SubscriptBox[
+          StyleBox["\<\"e\"\>",
+           StripOnInput->False,
+           FontFamily->"Times New Roman",
+           FontSize->16,
+           FontWeight->Bold], 
+          StyleBox["\<\"1\"\>",
+           StripOnInput->False,
+           FontFamily->"Times New Roman",
+           FontSize->9]],
+         DisplayForm],
+        TraditionalForm],
+       Background->RGBColor[1., 0.7725490196078432, 0.8588235294117647],
+       StripOnInput->False], 
+      ItemBox[
+       FormBox[
+        TagBox[
+         SubscriptBox[
+          StyleBox["\<\"e\"\>",
+           StripOnInput->False,
+           FontFamily->"Times New Roman",
+           FontSize->16,
+           FontWeight->Bold], 
+          StyleBox["\<\"2\"\>",
+           StripOnInput->False,
+           FontFamily->"Times New Roman",
+           FontSize->9]],
+         DisplayForm],
+        TraditionalForm],
+       Background->RGBColor[1., 0.7725490196078432, 0.8588235294117647],
+       StripOnInput->False], 
+      ItemBox[
+       FormBox[
+        TagBox[
+         SubscriptBox[
+          StyleBox["\<\"e\"\>",
+           StripOnInput->False,
+           FontFamily->"Times New Roman",
+           FontSize->16,
+           FontWeight->Bold], 
+          StyleBox["\<\"3\"\>",
+           StripOnInput->False,
+           FontFamily->"Times New Roman",
+           FontSize->9]],
+         DisplayForm],
+        TraditionalForm],
+       Background->RGBColor[1., 0.7725490196078432, 0.8588235294117647],
+       StripOnInput->False], 
+      ItemBox[
+       FormBox[
+        TagBox[
+         SubscriptBox[
+          StyleBox["\<\"e\"\>",
+           StripOnInput->False,
+           FontFamily->"Times New Roman",
+           FontSize->16,
+           FontWeight->Bold], 
+          StyleBox["\<\"12\"\>",
+           StripOnInput->False,
+           FontFamily->"Times New Roman",
+           FontSize->9]],
+         DisplayForm],
+        TraditionalForm],
+       Background->RGBColor[1., 0.7725490196078432, 0.8588235294117647],
+       StripOnInput->False], 
+      ItemBox[
+       FormBox[
+        TagBox[
+         SubscriptBox[
+          StyleBox["\<\"e\"\>",
+           StripOnInput->False,
+           FontFamily->"Times New Roman",
+           FontSize->16,
+           FontWeight->Bold], 
+          StyleBox["\<\"23\"\>",
+           StripOnInput->False,
+           FontFamily->"Times New Roman",
+           FontSize->9]],
+         DisplayForm],
+        TraditionalForm],
+       Background->RGBColor[1., 0.7725490196078432, 0.8588235294117647],
+       StripOnInput->False], 
+      ItemBox[
+       FormBox[
+        TagBox[
+         SubscriptBox[
+          StyleBox["\<\"e\"\>",
+           StripOnInput->False,
+           FontFamily->"Times New Roman",
+           FontSize->16,
+           FontWeight->Bold], 
+          StyleBox["\<\"31\"\>",
+           StripOnInput->False,
+           FontFamily->"Times New Roman",
+           FontSize->9]],
+         DisplayForm],
+        TraditionalForm],
+       Background->RGBColor[1., 0.7725490196078432, 0.8588235294117647],
+       StripOnInput->False], 
+      ItemBox[
+       FormBox[
+        TagBox[
+         StyleBox["\|01d7d9",
+          FontFamily->"Segoe UI Symbol",
+          FontSize->16],
+         DisplayForm],
+        TraditionalForm],
+       Background->RGBColor[1., 0.7725490196078432, 0.8588235294117647],
+       StripOnInput->False]},
      {
       FormBox[
        TagBox[
@@ -6591,22 +6864,130 @@ Cell[BoxData[
           FontSize->9]],
         DisplayForm],
        TraditionalForm], 
-      RowBox[{"GeometricItem", "(", 
-       RowBox[{"2", ",", "1"}], ")"}], 
-      RowBox[{"GeometricItem", "(", 
-       RowBox[{"2", ",", "2"}], ")"}], 
-      RowBox[{"GeometricItem", "(", 
-       RowBox[{"2", ",", "3"}], ")"}], 
-      RowBox[{"GeometricItem", "(", 
-       RowBox[{"2", ",", "4"}], ")"}], 
-      RowBox[{"GeometricItem", "(", 
-       RowBox[{"2", ",", "5"}], ")"}], 
-      RowBox[{"GeometricItem", "(", 
-       RowBox[{"2", ",", "6"}], ")"}], 
-      RowBox[{"GeometricItem", "(", 
-       RowBox[{"2", ",", "7"}], ")"}], 
-      RowBox[{"GeometricItem", "(", 
-       RowBox[{"2", ",", "8"}], ")"}]},
+      ItemBox[
+       FormBox[
+        TagBox[
+         SubscriptBox[
+          StyleBox["\<\"e\"\>",
+           StripOnInput->False,
+           FontFamily->"Times New Roman",
+           FontSize->16,
+           FontWeight->Bold], 
+          StyleBox["\<\"1\"\>",
+           StripOnInput->False,
+           FontFamily->"Times New Roman",
+           FontSize->9]],
+         DisplayForm],
+        TraditionalForm],
+       Background->RGBColor[1., 0.7725490196078432, 0.8588235294117647],
+       StripOnInput->False], 
+      ItemBox[
+       FormBox[
+        TagBox[
+         StyleBox["\<\"1\"\>",
+          StripOnInput->False,
+          FontFamily->"Times New Roman",
+          FontSize->16,
+          FontWeight->Bold],
+         DisplayForm],
+        TraditionalForm],
+       Background->RGBColor[
+        0.8666666666666667, 0.5568627450980392, 0.5568627450980392],
+       StripOnInput->False], 
+      ItemBox[
+       FormBox[
+        TagBox[
+         SubscriptBox[
+          StyleBox["\<\"e\"\>",
+           StripOnInput->False,
+           FontFamily->"Times New Roman",
+           FontSize->16,
+           FontWeight->Bold], 
+          StyleBox["\<\"12\"\>",
+           StripOnInput->False,
+           FontFamily->"Times New Roman",
+           FontSize->9]],
+         DisplayForm],
+        TraditionalForm],
+       Background->RGBColor[1., 0.7725490196078432, 0.8588235294117647],
+       StripOnInput->False], 
+      ItemBox[
+       RowBox[{"-", 
+        FormBox[
+         TagBox[
+          SubscriptBox[
+           StyleBox["\<\"e\"\>",
+            StripOnInput->False,
+            FontFamily->"Times New Roman",
+            FontSize->16,
+            FontWeight->Bold], 
+           StyleBox["\<\"31\"\>",
+            StripOnInput->False,
+            FontFamily->"Times New Roman",
+            FontSize->9]],
+          DisplayForm],
+         TraditionalForm]}],
+       Background->RGBColor[1., 0.7725490196078432, 0.8588235294117647],
+       StripOnInput->False], 
+      ItemBox[
+       FormBox[
+        TagBox[
+         SubscriptBox[
+          StyleBox["\<\"e\"\>",
+           StripOnInput->False,
+           FontFamily->"Times New Roman",
+           FontSize->16,
+           FontWeight->Bold], 
+          StyleBox["\<\"2\"\>",
+           StripOnInput->False,
+           FontFamily->"Times New Roman",
+           FontSize->9]],
+         DisplayForm],
+        TraditionalForm],
+       StripOnInput->False], 
+      ItemBox[
+       FormBox[
+        TagBox[
+         StyleBox["\|01d7d9",
+          FontFamily->"Segoe UI Symbol",
+          FontSize->16],
+         DisplayForm],
+        TraditionalForm],
+       Background->RGBColor[1., 0.7725490196078432, 0.8588235294117647],
+       StripOnInput->False], 
+      ItemBox[
+       RowBox[{"-", 
+        FormBox[
+         TagBox[
+          SubscriptBox[
+           StyleBox["\<\"e\"\>",
+            StripOnInput->False,
+            FontFamily->"Times New Roman",
+            FontSize->16,
+            FontWeight->Bold], 
+           StyleBox["\<\"3\"\>",
+            StripOnInput->False,
+            FontFamily->"Times New Roman",
+            FontSize->9]],
+          DisplayForm],
+         TraditionalForm]}],
+       StripOnInput->False], 
+      ItemBox[
+       FormBox[
+        TagBox[
+         SubscriptBox[
+          StyleBox["\<\"e\"\>",
+           StripOnInput->False,
+           FontFamily->"Times New Roman",
+           FontSize->16,
+           FontWeight->Bold], 
+          StyleBox["\<\"23\"\>",
+           StripOnInput->False,
+           FontFamily->"Times New Roman",
+           FontSize->9]],
+         DisplayForm],
+        TraditionalForm],
+       StripOnInput->False]},
      {
       FormBox[
        TagBox[
@@ -6622,22 +7003,128 @@ Cell[BoxData[
           FontSize->9]],
         DisplayForm],
        TraditionalForm], 
-      RowBox[{"GeometricItem", "(", 
-       RowBox[{"3", ",", "1"}], ")"}], 
-      RowBox[{"GeometricItem", "(", 
-       RowBox[{"3", ",", "2"}], ")"}], 
-      RowBox[{"GeometricItem", "(", 
-       RowBox[{"3", ",", "3"}], ")"}], 
-      RowBox[{"GeometricItem", "(", 
-       RowBox[{"3", ",", "4"}], ")"}], 
-      RowBox[{"GeometricItem", "(", 
-       RowBox[{"3", ",", "5"}], ")"}], 
-      RowBox[{"GeometricItem", "(", 
-       RowBox[{"3", ",", "6"}], ")"}], 
-      RowBox[{"GeometricItem", "(", 
-       RowBox[{"3", ",", "7"}], ")"}], 
-      RowBox[{"GeometricItem", "(", 
-       RowBox[{"3", ",", "8"}], ")"}]},
+      ItemBox[
+       FormBox[
+        TagBox[
+         SubscriptBox[
+          StyleBox["\<\"e\"\>",
+           StripOnInput->False,
+           FontFamily->"Times New Roman",
+           FontSize->16,
+           FontWeight->Bold], 
+          StyleBox["\<\"2\"\>",
+           StripOnInput->False,
+           FontFamily->"Times New Roman",
+           FontSize->9]],
+         DisplayForm],
+        TraditionalForm],
+       Background->RGBColor[1., 0.7725490196078432, 0.8588235294117647],
+       StripOnInput->False], 
+      ItemBox[
+       RowBox[{"-", 
+        FormBox[
+         TagBox[
+          SubscriptBox[
+           StyleBox["\<\"e\"\>",
+            StripOnInput->False,
+            FontFamily->"Times New Roman",
+            FontSize->16,
+            FontWeight->Bold], 
+           StyleBox["\<\"12\"\>",
+            StripOnInput->False,
+            FontFamily->"Times New Roman",
+            FontSize->9]],
+          DisplayForm],
+         TraditionalForm]}],
+       Background->RGBColor[1., 0.7725490196078432, 0.8588235294117647],
+       StripOnInput->False], 
+      ItemBox["0",
+       StripOnInput->False], 
+      ItemBox[
+       RowBox[{
+        FormBox[
+         TagBox[
+          SubscriptBox[
+           StyleBox["\<\"e\"\>",
+            StripOnInput->False,
+            FontFamily->"Times New Roman",
+            FontSize->16,
+            FontWeight->Bold], 
+           StyleBox["\<\"23\"\>",
+            StripOnInput->False,
+            FontFamily->"Times New Roman",
+            FontSize->9]],
+          DisplayForm],
+         TraditionalForm], "-", 
+        FormBox[
+         TagBox[
+          StyleBox["\<\"1\"\>",
+           StripOnInput->False,
+           FontFamily->"Times New Roman",
+           FontSize->16,
+           FontWeight->Bold],
+          DisplayForm],
+         TraditionalForm]}],
+       StripOnInput->False], 
+      ItemBox["0",
+       StripOnInput->False], 
+      ItemBox[
+       FormBox[
+        TagBox[
+         SubscriptBox[
+          StyleBox["\<\"e\"\>",
+           StripOnInput->False,
+           FontFamily->"Times New Roman",
+           FontSize->16,
+           FontWeight->Bold], 
+          StyleBox["\<\"2\"\>",
+           StripOnInput->False,
+           FontFamily->"Times New Roman",
+           FontSize->9]],
+         DisplayForm],
+        TraditionalForm],
+       StripOnInput->False], 
+      ItemBox[
+       RowBox[{
+        FormBox[
+         TagBox[
+          StyleBox["\|01d7d9",
+           FontFamily->"Segoe UI Symbol",
+           FontSize->16],
+          DisplayForm],
+         TraditionalForm], "-", 
+        FormBox[
+         TagBox[
+          SubscriptBox[
+           StyleBox["\<\"e\"\>",
+            StripOnInput->False,
+            FontFamily->"Times New Roman",
+            FontSize->16,
+            FontWeight->Bold], 
+           StyleBox["\<\"1\"\>",
+            StripOnInput->False,
+            FontFamily->"Times New Roman",
+            FontSize->9]],
+          DisplayForm],
+         TraditionalForm]}],
+       StripOnInput->False], 
+      ItemBox[
+       RowBox[{"-", 
+        FormBox[
+         TagBox[
+          SubscriptBox[
+           StyleBox["\<\"e\"\>",
+            StripOnInput->False,
+            FontFamily->"Times New Roman",
+            FontSize->16,
+            FontWeight->Bold], 
+           StyleBox["\<\"12\"\>",
+            StripOnInput->False,
+            FontFamily->"Times New Roman",
+            FontSize->9]],
+          DisplayForm],
+         TraditionalForm]}],
+       StripOnInput->False]},
      {
       FormBox[
        TagBox[
@@ -6653,22 +7140,129 @@ Cell[BoxData[
           FontSize->9]],
         DisplayForm],
        TraditionalForm], 
-      RowBox[{"GeometricItem", "(", 
-       RowBox[{"4", ",", "1"}], ")"}], 
-      RowBox[{"GeometricItem", "(", 
-       RowBox[{"4", ",", "2"}], ")"}], 
-      RowBox[{"GeometricItem", "(", 
-       RowBox[{"4", ",", "3"}], ")"}], 
-      RowBox[{"GeometricItem", "(", 
-       RowBox[{"4", ",", "4"}], ")"}], 
-      RowBox[{"GeometricItem", "(", 
-       RowBox[{"4", ",", "5"}], ")"}], 
-      RowBox[{"GeometricItem", "(", 
-       RowBox[{"4", ",", "6"}], ")"}], 
-      RowBox[{"GeometricItem", "(", 
-       RowBox[{"4", ",", "7"}], ")"}], 
-      RowBox[{"GeometricItem", "(", 
-       RowBox[{"4", ",", "8"}], ")"}]},
+      ItemBox[
+       FormBox[
+        TagBox[
+         SubscriptBox[
+          StyleBox["\<\"e\"\>",
+           StripOnInput->False,
+           FontFamily->"Times New Roman",
+           FontSize->16,
+           FontWeight->Bold], 
+          StyleBox["\<\"3\"\>",
+           StripOnInput->False,
+           FontFamily->"Times New Roman",
+           FontSize->9]],
+         DisplayForm],
+        TraditionalForm],
+       Background->RGBColor[1., 0.7725490196078432, 0.8588235294117647],
+       StripOnInput->False], 
+      ItemBox[
+       FormBox[
+        TagBox[
+         SubscriptBox[
+          StyleBox["\<\"e\"\>",
+           StripOnInput->False,
+           FontFamily->"Times New Roman",
+           FontSize->16,
+           FontWeight->Bold], 
+          StyleBox["\<\"31\"\>",
+           StripOnInput->False,
+           FontFamily->"Times New Roman",
+           FontSize->9]],
+         DisplayForm],
+        TraditionalForm],
+       Background->RGBColor[1., 0.7725490196078432, 0.8588235294117647],
+       StripOnInput->False], 
+      ItemBox[
+       RowBox[{
+        RowBox[{"-", 
+         FormBox[
+          TagBox[
+           StyleBox["\<\"1\"\>",
+            StripOnInput->False,
+            FontFamily->"Times New Roman",
+            FontSize->16,
+            FontWeight->Bold],
+           DisplayForm],
+          TraditionalForm]}], "-", 
+        FormBox[
+         TagBox[
+          SubscriptBox[
+           StyleBox["\<\"e\"\>",
+            StripOnInput->False,
+            FontFamily->"Times New Roman",
+            FontSize->16,
+            FontWeight->Bold], 
+           StyleBox["\<\"23\"\>",
+            StripOnInput->False,
+            FontFamily->"Times New Roman",
+            FontSize->9]],
+          DisplayForm],
+         TraditionalForm]}],
+       StripOnInput->False], 
+      ItemBox["0",
+       StripOnInput->False], 
+      ItemBox[
+       RowBox[{
+        FormBox[
+         TagBox[
+          StyleBox["\|01d7d9",
+           FontFamily->"Segoe UI Symbol",
+           FontSize->16],
+          DisplayForm],
+         TraditionalForm], "+", 
+        FormBox[
+         TagBox[
+          SubscriptBox[
+           StyleBox["\<\"e\"\>",
+            StripOnInput->False,
+            FontFamily->"Times New Roman",
+            FontSize->16,
+            FontWeight->Bold], 
+           StyleBox["\<\"1\"\>",
+            StripOnInput->False,
+            FontFamily->"Times New Roman",
+            FontSize->9]],
+          DisplayForm],
+         TraditionalForm]}],
+       StripOnInput->False], 
+      ItemBox[
+       RowBox[{"-", 
+        FormBox[
+         TagBox[
+          SubscriptBox[
+           StyleBox["\<\"e\"\>",
+            StripOnInput->False,
+            FontFamily->"Times New Roman",
+            FontSize->16,
+            FontWeight->Bold], 
+           StyleBox["\<\"3\"\>",
+            StripOnInput->False,
+            FontFamily->"Times New Roman",
+            FontSize->9]],
+          DisplayForm],
+         TraditionalForm]}],
+       StripOnInput->False], 
+      ItemBox["0",
+       StripOnInput->False], 
+      ItemBox[
+       RowBox[{"-", 
+        FormBox[
+         TagBox[
+          SubscriptBox[
+           StyleBox["\<\"e\"\>",
+            StripOnInput->False,
+            FontFamily->"Times New Roman",
+            FontSize->16,
+            FontWeight->Bold], 
+           StyleBox["\<\"31\"\>",
+            StripOnInput->False,
+            FontFamily->"Times New Roman",
+            FontSize->9]],
+          DisplayForm],
+         TraditionalForm]}],
+       StripOnInput->False]},
      {
       FormBox[
        TagBox[
@@ -6684,22 +7278,127 @@ Cell[BoxData[
           FontSize->9]],
         DisplayForm],
        TraditionalForm], 
-      RowBox[{"GeometricItem", "(", 
-       RowBox[{"5", ",", "1"}], ")"}], 
-      RowBox[{"GeometricItem", "(", 
-       RowBox[{"5", ",", "2"}], ")"}], 
-      RowBox[{"GeometricItem", "(", 
-       RowBox[{"5", ",", "3"}], ")"}], 
-      RowBox[{"GeometricItem", "(", 
-       RowBox[{"5", ",", "4"}], ")"}], 
-      RowBox[{"GeometricItem", "(", 
-       RowBox[{"5", ",", "5"}], ")"}], 
-      RowBox[{"GeometricItem", "(", 
-       RowBox[{"5", ",", "6"}], ")"}], 
-      RowBox[{"GeometricItem", "(", 
-       RowBox[{"5", ",", "7"}], ")"}], 
-      RowBox[{"GeometricItem", "(", 
-       RowBox[{"5", ",", "8"}], ")"}]},
+      ItemBox[
+       FormBox[
+        TagBox[
+         SubscriptBox[
+          StyleBox["\<\"e\"\>",
+           StripOnInput->False,
+           FontFamily->"Times New Roman",
+           FontSize->16,
+           FontWeight->Bold], 
+          StyleBox["\<\"12\"\>",
+           StripOnInput->False,
+           FontFamily->"Times New Roman",
+           FontSize->9]],
+         DisplayForm],
+        TraditionalForm],
+       Background->RGBColor[1., 0.7725490196078432, 0.8588235294117647],
+       StripOnInput->False], 
+      ItemBox[
+       RowBox[{"-", 
+        FormBox[
+         TagBox[
+          SubscriptBox[
+           StyleBox["\<\"e\"\>",
+            StripOnInput->False,
+            FontFamily->"Times New Roman",
+            FontSize->16,
+            FontWeight->Bold], 
+           StyleBox["\<\"2\"\>",
+            StripOnInput->False,
+            FontFamily->"Times New Roman",
+            FontSize->9]],
+          DisplayForm],
+         TraditionalForm]}],
+       StripOnInput->False], 
+      ItemBox["0",
+       StripOnInput->False], 
+      ItemBox[
+       RowBox[{
+        FormBox[
+         TagBox[
+          StyleBox["\|01d7d9",
+           FontFamily->"Segoe UI Symbol",
+           FontSize->16],
+          DisplayForm],
+         TraditionalForm], "-", 
+        FormBox[
+         TagBox[
+          SubscriptBox[
+           StyleBox["\<\"e\"\>",
+            StripOnInput->False,
+            FontFamily->"Times New Roman",
+            FontSize->16,
+            FontWeight->Bold], 
+           StyleBox["\<\"1\"\>",
+            StripOnInput->False,
+            FontFamily->"Times New Roman",
+            FontSize->9]],
+          DisplayForm],
+         TraditionalForm]}],
+       StripOnInput->False], 
+      ItemBox["0",
+       StripOnInput->False], 
+      ItemBox[
+       FormBox[
+        TagBox[
+         SubscriptBox[
+          StyleBox["\<\"e\"\>",
+           StripOnInput->False,
+           FontFamily->"Times New Roman",
+           FontSize->16,
+           FontWeight->Bold], 
+          StyleBox["\<\"12\"\>",
+           StripOnInput->False,
+           FontFamily->"Times New Roman",
+           FontSize->9]],
+         DisplayForm],
+        TraditionalForm],
+       StripOnInput->False], 
+      ItemBox[
+       RowBox[{
+        FormBox[
+         TagBox[
+          SubscriptBox[
+           StyleBox["\<\"e\"\>",
+            StripOnInput->False,
+            FontFamily->"Times New Roman",
+            FontSize->16,
+            FontWeight->Bold], 
+           StyleBox["\<\"23\"\>",
+            StripOnInput->False,
+            FontFamily->"Times New Roman",
+            FontSize->9]],
+          DisplayForm],
+         TraditionalForm], "-", 
+        FormBox[
+         TagBox[
+          StyleBox["\<\"1\"\>",
+           StripOnInput->False,
+           FontFamily->"Times New Roman",
+           FontSize->16,
+           FontWeight->Bold],
+          DisplayForm],
+         TraditionalForm]}],
+       StripOnInput->False], 
+      ItemBox[
+       RowBox[{"-", 
+        FormBox[
+         TagBox[
+          SubscriptBox[
+           StyleBox["\<\"e\"\>",
+            StripOnInput->False,
+            FontFamily->"Times New Roman",
+            FontSize->16,
+            FontWeight->Bold], 
+           StyleBox["\<\"2\"\>",
+            StripOnInput->False,
+            FontFamily->"Times New Roman",
+            FontSize->9]],
+          DisplayForm],
+         TraditionalForm]}],
+       StripOnInput->False]},
      {
       FormBox[
        TagBox[
@@ -6715,22 +7414,128 @@ Cell[BoxData[
           FontSize->9]],
         DisplayForm],
        TraditionalForm], 
-      RowBox[{"GeometricItem", "(", 
-       RowBox[{"6", ",", "1"}], ")"}], 
-      RowBox[{"GeometricItem", "(", 
-       RowBox[{"6", ",", "2"}], ")"}], 
-      RowBox[{"GeometricItem", "(", 
-       RowBox[{"6", ",", "3"}], ")"}], 
-      RowBox[{"GeometricItem", "(", 
-       RowBox[{"6", ",", "4"}], ")"}], 
-      RowBox[{"GeometricItem", "(", 
-       RowBox[{"6", ",", "5"}], ")"}], 
-      RowBox[{"GeometricItem", "(", 
-       RowBox[{"6", ",", "6"}], ")"}], 
-      RowBox[{"GeometricItem", "(", 
-       RowBox[{"6", ",", "7"}], ")"}], 
-      RowBox[{"GeometricItem", "(", 
-       RowBox[{"6", ",", "8"}], ")"}]},
+      ItemBox[
+       FormBox[
+        TagBox[
+         SubscriptBox[
+          StyleBox["\<\"e\"\>",
+           StripOnInput->False,
+           FontFamily->"Times New Roman",
+           FontSize->16,
+           FontWeight->Bold], 
+          StyleBox["\<\"23\"\>",
+           StripOnInput->False,
+           FontFamily->"Times New Roman",
+           FontSize->9]],
+         DisplayForm],
+        TraditionalForm],
+       Background->RGBColor[1., 0.7725490196078432, 0.8588235294117647],
+       StripOnInput->False], 
+      ItemBox[
+       FormBox[
+        TagBox[
+         StyleBox["\|01d7d9",
+          FontFamily->"Segoe UI Symbol",
+          FontSize->16],
+         DisplayForm],
+        TraditionalForm],
+       Background->RGBColor[1., 0.7725490196078432, 0.8588235294117647],
+       StripOnInput->False], 
+      ItemBox[
+       RowBox[{"-", 
+        FormBox[
+         TagBox[
+          SubscriptBox[
+           StyleBox["\<\"e\"\>",
+            StripOnInput->False,
+            FontFamily->"Times New Roman",
+            FontSize->16,
+            FontWeight->Bold], 
+           StyleBox["\<\"2\"\>",
+            StripOnInput->False,
+            FontFamily->"Times New Roman",
+            FontSize->9]],
+          DisplayForm],
+         TraditionalForm]}],
+       StripOnInput->False], 
+      ItemBox[
+       FormBox[
+        TagBox[
+         SubscriptBox[
+          StyleBox["\<\"e\"\>",
+           StripOnInput->False,
+           FontFamily->"Times New Roman",
+           FontSize->16,
+           FontWeight->Bold], 
+          StyleBox["\<\"3\"\>",
+           StripOnInput->False,
+           FontFamily->"Times New Roman",
+           FontSize->9]],
+         DisplayForm],
+        TraditionalForm],
+       StripOnInput->False], 
+      ItemBox[
+       RowBox[{"-", 
+        FormBox[
+         TagBox[
+          SubscriptBox[
+           StyleBox["\<\"e\"\>",
+            StripOnInput->False,
+            FontFamily->"Times New Roman",
+            FontSize->16,
+            FontWeight->Bold], 
+           StyleBox["\<\"12\"\>",
+            StripOnInput->False,
+            FontFamily->"Times New Roman",
+            FontSize->9]],
+          DisplayForm],
+         TraditionalForm]}],
+       StripOnInput->False], 
+      ItemBox[
+       FormBox[
+        TagBox[
+         StyleBox["\<\"1\"\>",
+          StripOnInput->False,
+          FontFamily->"Times New Roman",
+          FontSize->16,
+          FontWeight->Bold],
+         DisplayForm],
+        TraditionalForm],
+       Background->RGBColor[
+        0.8666666666666667, 0.5568627450980392, 0.5568627450980392],
+       StripOnInput->False], 
+      ItemBox[
+       FormBox[
+        TagBox[
+         SubscriptBox[
+          StyleBox["\<\"e\"\>",
+           StripOnInput->False,
+           FontFamily->"Times New Roman",
+           FontSize->16,
+           FontWeight->Bold], 
+          StyleBox["\<\"31\"\>",
+           StripOnInput->False,
+           FontFamily->"Times New Roman",
+           FontSize->9]],
+         DisplayForm],
+        TraditionalForm],
+       StripOnInput->False], 
+      ItemBox[
+       FormBox[
+        TagBox[
+         SubscriptBox[
+          StyleBox["\<\"e\"\>",
+           StripOnInput->False,
+           FontFamily->"Times New Roman",
+           FontSize->16,
+           FontWeight->Bold], 
+          StyleBox["\<\"1\"\>",
+           StripOnInput->False,
+           FontFamily->"Times New Roman",
+           FontSize->9]],
+         DisplayForm],
+        TraditionalForm],
+       StripOnInput->False]},
      {
       FormBox[
        TagBox[
@@ -6746,22 +7551,128 @@ Cell[BoxData[
           FontSize->9]],
         DisplayForm],
        TraditionalForm], 
-      RowBox[{"GeometricItem", "(", 
-       RowBox[{"7", ",", "1"}], ")"}], 
-      RowBox[{"GeometricItem", "(", 
-       RowBox[{"7", ",", "2"}], ")"}], 
-      RowBox[{"GeometricItem", "(", 
-       RowBox[{"7", ",", "3"}], ")"}], 
-      RowBox[{"GeometricItem", "(", 
-       RowBox[{"7", ",", "4"}], ")"}], 
-      RowBox[{"GeometricItem", "(", 
-       RowBox[{"7", ",", "5"}], ")"}], 
-      RowBox[{"GeometricItem", "(", 
-       RowBox[{"7", ",", "6"}], ")"}], 
-      RowBox[{"GeometricItem", "(", 
-       RowBox[{"7", ",", "7"}], ")"}], 
-      RowBox[{"GeometricItem", "(", 
-       RowBox[{"7", ",", "8"}], ")"}]},
+      ItemBox[
+       FormBox[
+        TagBox[
+         SubscriptBox[
+          StyleBox["\<\"e\"\>",
+           StripOnInput->False,
+           FontFamily->"Times New Roman",
+           FontSize->16,
+           FontWeight->Bold], 
+          StyleBox["\<\"31\"\>",
+           StripOnInput->False,
+           FontFamily->"Times New Roman",
+           FontSize->9]],
+         DisplayForm],
+        TraditionalForm],
+       Background->RGBColor[1., 0.7725490196078432, 0.8588235294117647],
+       StripOnInput->False], 
+      ItemBox[
+       FormBox[
+        TagBox[
+         SubscriptBox[
+          StyleBox["\<\"e\"\>",
+           StripOnInput->False,
+           FontFamily->"Times New Roman",
+           FontSize->16,
+           FontWeight->Bold], 
+          StyleBox["\<\"3\"\>",
+           StripOnInput->False,
+           FontFamily->"Times New Roman",
+           FontSize->9]],
+         DisplayForm],
+        TraditionalForm],
+       StripOnInput->False], 
+      ItemBox[
+       RowBox[{
+        FormBox[
+         TagBox[
+          StyleBox["\|01d7d9",
+           FontFamily->"Segoe UI Symbol",
+           FontSize->16],
+          DisplayForm],
+         TraditionalForm], "+", 
+        FormBox[
+         TagBox[
+          SubscriptBox[
+           StyleBox["\<\"e\"\>",
+            StripOnInput->False,
+            FontFamily->"Times New Roman",
+            FontSize->16,
+            FontWeight->Bold], 
+           StyleBox["\<\"1\"\>",
+            StripOnInput->False,
+            FontFamily->"Times New Roman",
+            FontSize->9]],
+          DisplayForm],
+         TraditionalForm]}],
+       StripOnInput->False], 
+      ItemBox["0",
+       StripOnInput->False], 
+      ItemBox[
+       RowBox[{
+        RowBox[{"-", 
+         FormBox[
+          TagBox[
+           StyleBox["\<\"1\"\>",
+            StripOnInput->False,
+            FontFamily->"Times New Roman",
+            FontSize->16,
+            FontWeight->Bold],
+           DisplayForm],
+          TraditionalForm]}], "-", 
+        FormBox[
+         TagBox[
+          SubscriptBox[
+           StyleBox["\<\"e\"\>",
+            StripOnInput->False,
+            FontFamily->"Times New Roman",
+            FontSize->16,
+            FontWeight->Bold], 
+           StyleBox["\<\"23\"\>",
+            StripOnInput->False,
+            FontFamily->"Times New Roman",
+            FontSize->9]],
+          DisplayForm],
+         TraditionalForm]}],
+       StripOnInput->False], 
+      ItemBox[
+       RowBox[{"-", 
+        FormBox[
+         TagBox[
+          SubscriptBox[
+           StyleBox["\<\"e\"\>",
+            StripOnInput->False,
+            FontFamily->"Times New Roman",
+            FontSize->16,
+            FontWeight->Bold], 
+           StyleBox["\<\"31\"\>",
+            StripOnInput->False,
+            FontFamily->"Times New Roman",
+            FontSize->9]],
+          DisplayForm],
+         TraditionalForm]}],
+       StripOnInput->False], 
+      ItemBox["0",
+       StripOnInput->False], 
+      ItemBox[
+       RowBox[{"-", 
+        FormBox[
+         TagBox[
+          SubscriptBox[
+           StyleBox["\<\"e\"\>",
+            StripOnInput->False,
+            FontFamily->"Times New Roman",
+            FontSize->16,
+            FontWeight->Bold], 
+           StyleBox["\<\"3\"\>",
+            StripOnInput->False,
+            FontFamily->"Times New Roman",
+            FontSize->9]],
+          DisplayForm],
+         TraditionalForm]}],
+       StripOnInput->False]},
      {
       FormBox[
        TagBox[
@@ -6770,22 +7681,129 @@ Cell[BoxData[
          FontSize->16],
         DisplayForm],
        TraditionalForm], 
-      RowBox[{"GeometricItem", "(", 
-       RowBox[{"8", ",", "1"}], ")"}], 
-      RowBox[{"GeometricItem", "(", 
-       RowBox[{"8", ",", "2"}], ")"}], 
-      RowBox[{"GeometricItem", "(", 
-       RowBox[{"8", ",", "3"}], ")"}], 
-      RowBox[{"GeometricItem", "(", 
-       RowBox[{"8", ",", "4"}], ")"}], 
-      RowBox[{"GeometricItem", "(", 
-       RowBox[{"8", ",", "5"}], ")"}], 
-      RowBox[{"GeometricItem", "(", 
-       RowBox[{"8", ",", "6"}], ")"}], 
-      RowBox[{"GeometricItem", "(", 
-       RowBox[{"8", ",", "7"}], ")"}], 
-      RowBox[{"GeometricItem", "(", 
-       RowBox[{"8", ",", "8"}], ")"}]}
+      ItemBox[
+       FormBox[
+        TagBox[
+         StyleBox["\|01d7d9",
+          FontFamily->"Segoe UI Symbol",
+          FontSize->16],
+         DisplayForm],
+        TraditionalForm],
+       Background->RGBColor[1., 0.7725490196078432, 0.8588235294117647],
+       StripOnInput->False], 
+      ItemBox[
+       FormBox[
+        TagBox[
+         SubscriptBox[
+          StyleBox["\<\"e\"\>",
+           StripOnInput->False,
+           FontFamily->"Times New Roman",
+           FontSize->16,
+           FontWeight->Bold], 
+          StyleBox["\<\"23\"\>",
+           StripOnInput->False,
+           FontFamily->"Times New Roman",
+           FontSize->9]],
+         DisplayForm],
+        TraditionalForm],
+       StripOnInput->False], 
+      ItemBox[
+       RowBox[{"-", 
+        FormBox[
+         TagBox[
+          SubscriptBox[
+           StyleBox["\<\"e\"\>",
+            StripOnInput->False,
+            FontFamily->"Times New Roman",
+            FontSize->16,
+            FontWeight->Bold], 
+           StyleBox["\<\"12\"\>",
+            StripOnInput->False,
+            FontFamily->"Times New Roman",
+            FontSize->9]],
+          DisplayForm],
+         TraditionalForm]}],
+       StripOnInput->False], 
+      ItemBox[
+       RowBox[{"-", 
+        FormBox[
+         TagBox[
+          SubscriptBox[
+           StyleBox["\<\"e\"\>",
+            StripOnInput->False,
+            FontFamily->"Times New Roman",
+            FontSize->16,
+            FontWeight->Bold], 
+           StyleBox["\<\"31\"\>",
+            StripOnInput->False,
+            FontFamily->"Times New Roman",
+            FontSize->9]],
+          DisplayForm],
+         TraditionalForm]}],
+       StripOnInput->False], 
+      ItemBox[
+       RowBox[{"-", 
+        FormBox[
+         TagBox[
+          SubscriptBox[
+           StyleBox["\<\"e\"\>",
+            StripOnInput->False,
+            FontFamily->"Times New Roman",
+            FontSize->16,
+            FontWeight->Bold], 
+           StyleBox["\<\"2\"\>",
+            StripOnInput->False,
+            FontFamily->"Times New Roman",
+            FontSize->9]],
+          DisplayForm],
+         TraditionalForm]}],
+       StripOnInput->False], 
+      ItemBox[
+       FormBox[
+        TagBox[
+         SubscriptBox[
+          StyleBox["\<\"e\"\>",
+           StripOnInput->False,
+           FontFamily->"Times New Roman",
+           FontSize->16,
+           FontWeight->Bold], 
+          StyleBox["\<\"1\"\>",
+           StripOnInput->False,
+           FontFamily->"Times New Roman",
+           FontSize->9]],
+         DisplayForm],
+        TraditionalForm],
+       StripOnInput->False], 
+      ItemBox[
+       RowBox[{"-", 
+        FormBox[
+         TagBox[
+          SubscriptBox[
+           StyleBox["\<\"e\"\>",
+            StripOnInput->False,
+            FontFamily->"Times New Roman",
+            FontSize->16,
+            FontWeight->Bold], 
+           StyleBox["\<\"3\"\>",
+            StripOnInput->False,
+            FontFamily->"Times New Roman",
+            FontSize->9]],
+          DisplayForm],
+         TraditionalForm]}],
+       StripOnInput->False], 
+      ItemBox[
+       FormBox[
+        TagBox[
+         StyleBox["\<\"1\"\>",
+          StripOnInput->False,
+          FontFamily->"Times New Roman",
+          FontSize->16,
+          FontWeight->Bold],
+         DisplayForm],
+        TraditionalForm],
+       Background->RGBColor[
+        0.8666666666666667, 0.5568627450980392, 0.5568627450980392],
+       StripOnInput->False]}
     },
     AutoDelete->False,
     GridBoxBackground->{"Columns" -> {{None}}, "Rows" -> {
@@ -6817,14 +7835,17 @@ Cell[BoxData[
       "Rows" -> {{2.25}}},
     GridBoxSpacings->{"Columns" -> {{0}}, "Rows" -> {{0}}}],
    "Grid"], TraditionalForm]], "Output",
- CellChangeTimes->{3.9447844721065054`*^9, 3.9447845122738504`*^9, 
-  3.9447873844433193`*^9, 3.9448452553413773`*^9, 3.9448797598625507`*^9, 
-  3.9448834564925623`*^9, 3.944935218062271*^9, 3.944935295411267*^9, 
-  3.9449363247123165`*^9, 3.9449609647879233`*^9, 3.9568771443312454`*^9, 
-  3.977773907827754*^9, 3.9777750145382833`*^9, 3.9777753157878017`*^9},
+ CellChangeTimes->{
+  3.9447844721065054`*^9, 3.9447845122738504`*^9, 3.9447873844433193`*^9, 
+   3.9448452553413773`*^9, 3.9448797598625507`*^9, 3.9448834564925623`*^9, 
+   3.944935218062271*^9, 3.944935295411267*^9, 3.9449363247123165`*^9, 
+   3.9449609647879233`*^9, 3.9568771443312454`*^9, 3.977773907827754*^9, 
+   3.9777750145382833`*^9, 3.9777753157878017`*^9, 3.977782101886581*^9, 
+   3.977782808138301*^9, {3.9777828694277554`*^9, 3.977782895749024*^9}, 
+   3.977783533294684*^9},
  CellLabel->
-  "Out[16]//TraditionalForm=",ExpressionUUID->"52ae6fe7-03c2-4881-89e4-\
-dd8ad4f9bcf8"]
+  "Out[21]//TraditionalForm=",ExpressionUUID->"ebbb2415-83a6-412f-986d-\
+3d09f0201de1"]
 }, Open  ]]
 }, Open  ]],
 
@@ -6957,7 +7978,7 @@ Cell[BoxData[
    3.944784587443037*^9}, {3.9448797678165016`*^9, 3.9448797845249395`*^9}, {
    3.944935238930938*^9, 3.9449352453722563`*^9}, {3.9449352810950613`*^9, 
    3.9449352817114983`*^9}},
- CellLabel->"In[17]:=",ExpressionUUID->"e8e129a6-5703-416a-bc9c-0b2dd0b710e7"],
+ CellLabel->"In[22]:=",ExpressionUUID->"e8e129a6-5703-416a-bc9c-0b2dd0b710e7"],
 
 Cell[BoxData[
  FormBox[
@@ -7076,22 +8097,129 @@ Cell[BoxData[
          FontWeight->Bold],
         DisplayForm],
        TraditionalForm], 
-      RowBox[{"AntigeometricItem", "(", 
-       RowBox[{"1", ",", "1"}], ")"}], 
-      RowBox[{"AntigeometricItem", "(", 
-       RowBox[{"1", ",", "2"}], ")"}], 
-      RowBox[{"AntigeometricItem", "(", 
-       RowBox[{"1", ",", "3"}], ")"}], 
-      RowBox[{"AntigeometricItem", "(", 
-       RowBox[{"1", ",", "4"}], ")"}], 
-      RowBox[{"AntigeometricItem", "(", 
-       RowBox[{"1", ",", "5"}], ")"}], 
-      RowBox[{"AntigeometricItem", "(", 
-       RowBox[{"1", ",", "6"}], ")"}], 
-      RowBox[{"AntigeometricItem", "(", 
-       RowBox[{"1", ",", "7"}], ")"}], 
-      RowBox[{"AntigeometricItem", "(", 
-       RowBox[{"1", ",", "8"}], ")"}]},
+      ItemBox[
+       FormBox[
+        TagBox[
+         StyleBox["\|01d7d9",
+          FontFamily->"Segoe UI Symbol",
+          FontSize->16],
+         DisplayForm],
+        TraditionalForm],
+       Background->RGBColor[
+        0.8666666666666667, 0.5568627450980392, 0.5568627450980392],
+       StripOnInput->False], 
+      ItemBox[
+       FormBox[
+        TagBox[
+         SubscriptBox[
+          StyleBox["\<\"e\"\>",
+           StripOnInput->False,
+           FontFamily->"Times New Roman",
+           FontSize->16,
+           FontWeight->Bold], 
+          StyleBox["\<\"23\"\>",
+           StripOnInput->False,
+           FontFamily->"Times New Roman",
+           FontSize->9]],
+         DisplayForm],
+        TraditionalForm],
+       StripOnInput->False], 
+      ItemBox[
+       RowBox[{"-", 
+        FormBox[
+         TagBox[
+          SubscriptBox[
+           StyleBox["\<\"e\"\>",
+            StripOnInput->False,
+            FontFamily->"Times New Roman",
+            FontSize->16,
+            FontWeight->Bold], 
+           StyleBox["\<\"12\"\>",
+            StripOnInput->False,
+            FontFamily->"Times New Roman",
+            FontSize->9]],
+          DisplayForm],
+         TraditionalForm]}],
+       StripOnInput->False], 
+      ItemBox[
+       RowBox[{"-", 
+        FormBox[
+         TagBox[
+          SubscriptBox[
+           StyleBox["\<\"e\"\>",
+            StripOnInput->False,
+            FontFamily->"Times New Roman",
+            FontSize->16,
+            FontWeight->Bold], 
+           StyleBox["\<\"31\"\>",
+            StripOnInput->False,
+            FontFamily->"Times New Roman",
+            FontSize->9]],
+          DisplayForm],
+         TraditionalForm]}],
+       StripOnInput->False], 
+      ItemBox[
+       RowBox[{"-", 
+        FormBox[
+         TagBox[
+          SubscriptBox[
+           StyleBox["\<\"e\"\>",
+            StripOnInput->False,
+            FontFamily->"Times New Roman",
+            FontSize->16,
+            FontWeight->Bold], 
+           StyleBox["\<\"2\"\>",
+            StripOnInput->False,
+            FontFamily->"Times New Roman",
+            FontSize->9]],
+          DisplayForm],
+         TraditionalForm]}],
+       StripOnInput->False], 
+      ItemBox[
+       FormBox[
+        TagBox[
+         SubscriptBox[
+          StyleBox["\<\"e\"\>",
+           StripOnInput->False,
+           FontFamily->"Times New Roman",
+           FontSize->16,
+           FontWeight->Bold], 
+          StyleBox["\<\"1\"\>",
+           StripOnInput->False,
+           FontFamily->"Times New Roman",
+           FontSize->9]],
+         DisplayForm],
+        TraditionalForm],
+       StripOnInput->False], 
+      ItemBox[
+       RowBox[{"-", 
+        FormBox[
+         TagBox[
+          SubscriptBox[
+           StyleBox["\<\"e\"\>",
+            StripOnInput->False,
+            FontFamily->"Times New Roman",
+            FontSize->16,
+            FontWeight->Bold], 
+           StyleBox["\<\"3\"\>",
+            StripOnInput->False,
+            FontFamily->"Times New Roman",
+            FontSize->9]],
+          DisplayForm],
+         TraditionalForm]}],
+       StripOnInput->False], 
+      ItemBox[
+       FormBox[
+        TagBox[
+         StyleBox["\<\"1\"\>",
+          StripOnInput->False,
+          FontFamily->"Times New Roman",
+          FontSize->16,
+          FontWeight->Bold],
+         DisplayForm],
+        TraditionalForm],
+       Background->RGBColor[1., 0.7725490196078432, 0.8588235294117647],
+       StripOnInput->False]},
      {
       FormBox[
        TagBox[
@@ -7107,22 +8235,128 @@ Cell[BoxData[
           FontSize->9]],
         DisplayForm],
        TraditionalForm], 
-      RowBox[{"AntigeometricItem", "(", 
-       RowBox[{"2", ",", "1"}], ")"}], 
-      RowBox[{"AntigeometricItem", "(", 
-       RowBox[{"2", ",", "2"}], ")"}], 
-      RowBox[{"AntigeometricItem", "(", 
-       RowBox[{"2", ",", "3"}], ")"}], 
-      RowBox[{"AntigeometricItem", "(", 
-       RowBox[{"2", ",", "4"}], ")"}], 
-      RowBox[{"AntigeometricItem", "(", 
-       RowBox[{"2", ",", "5"}], ")"}], 
-      RowBox[{"AntigeometricItem", "(", 
-       RowBox[{"2", ",", "6"}], ")"}], 
-      RowBox[{"AntigeometricItem", "(", 
-       RowBox[{"2", ",", "7"}], ")"}], 
-      RowBox[{"AntigeometricItem", "(", 
-       RowBox[{"2", ",", "8"}], ")"}]},
+      ItemBox[
+       FormBox[
+        TagBox[
+         SubscriptBox[
+          StyleBox["\<\"e\"\>",
+           StripOnInput->False,
+           FontFamily->"Times New Roman",
+           FontSize->16,
+           FontWeight->Bold], 
+          StyleBox["\<\"23\"\>",
+           StripOnInput->False,
+           FontFamily->"Times New Roman",
+           FontSize->9]],
+         DisplayForm],
+        TraditionalForm],
+       StripOnInput->False], 
+      ItemBox[
+       FormBox[
+        TagBox[
+         StyleBox["\|01d7d9",
+          FontFamily->"Segoe UI Symbol",
+          FontSize->16],
+         DisplayForm],
+        TraditionalForm],
+       Background->RGBColor[
+        0.8666666666666667, 0.5568627450980392, 0.5568627450980392],
+       StripOnInput->False], 
+      ItemBox[
+       FormBox[
+        TagBox[
+         SubscriptBox[
+          StyleBox["\<\"e\"\>",
+           StripOnInput->False,
+           FontFamily->"Times New Roman",
+           FontSize->16,
+           FontWeight->Bold], 
+          StyleBox["\<\"2\"\>",
+           StripOnInput->False,
+           FontFamily->"Times New Roman",
+           FontSize->9]],
+         DisplayForm],
+        TraditionalForm],
+       StripOnInput->False], 
+      ItemBox[
+       RowBox[{"-", 
+        FormBox[
+         TagBox[
+          SubscriptBox[
+           StyleBox["\<\"e\"\>",
+            StripOnInput->False,
+            FontFamily->"Times New Roman",
+            FontSize->16,
+            FontWeight->Bold], 
+           StyleBox["\<\"3\"\>",
+            StripOnInput->False,
+            FontFamily->"Times New Roman",
+            FontSize->9]],
+          DisplayForm],
+         TraditionalForm]}],
+       StripOnInput->False], 
+      ItemBox[
+       FormBox[
+        TagBox[
+         SubscriptBox[
+          StyleBox["\<\"e\"\>",
+           StripOnInput->False,
+           FontFamily->"Times New Roman",
+           FontSize->16,
+           FontWeight->Bold], 
+          StyleBox["\<\"12\"\>",
+           StripOnInput->False,
+           FontFamily->"Times New Roman",
+           FontSize->9]],
+         DisplayForm],
+        TraditionalForm],
+       StripOnInput->False], 
+      ItemBox[
+       FormBox[
+        TagBox[
+         StyleBox["\<\"1\"\>",
+          StripOnInput->False,
+          FontFamily->"Times New Roman",
+          FontSize->16,
+          FontWeight->Bold],
+         DisplayForm],
+        TraditionalForm],
+       Background->RGBColor[1., 0.7725490196078432, 0.8588235294117647],
+       StripOnInput->False], 
+      ItemBox[
+       RowBox[{"-", 
+        FormBox[
+         TagBox[
+          SubscriptBox[
+           StyleBox["\<\"e\"\>",
+            StripOnInput->False,
+            FontFamily->"Times New Roman",
+            FontSize->16,
+            FontWeight->Bold], 
+           StyleBox["\<\"31\"\>",
+            StripOnInput->False,
+            FontFamily->"Times New Roman",
+            FontSize->9]],
+          DisplayForm],
+         TraditionalForm]}],
+       StripOnInput->False], 
+      ItemBox[
+       FormBox[
+        TagBox[
+         SubscriptBox[
+          StyleBox["\<\"e\"\>",
+           StripOnInput->False,
+           FontFamily->"Times New Roman",
+           FontSize->16,
+           FontWeight->Bold], 
+          StyleBox["\<\"1\"\>",
+           StripOnInput->False,
+           FontFamily->"Times New Roman",
+           FontSize->9]],
+         DisplayForm],
+        TraditionalForm],
+       Background->RGBColor[1., 0.7725490196078432, 0.8588235294117647],
+       StripOnInput->False]},
      {
       FormBox[
        TagBox[
@@ -7138,22 +8372,128 @@ Cell[BoxData[
           FontSize->9]],
         DisplayForm],
        TraditionalForm], 
-      RowBox[{"AntigeometricItem", "(", 
-       RowBox[{"3", ",", "1"}], ")"}], 
-      RowBox[{"AntigeometricItem", "(", 
-       RowBox[{"3", ",", "2"}], ")"}], 
-      RowBox[{"AntigeometricItem", "(", 
-       RowBox[{"3", ",", "3"}], ")"}], 
-      RowBox[{"AntigeometricItem", "(", 
-       RowBox[{"3", ",", "4"}], ")"}], 
-      RowBox[{"AntigeometricItem", "(", 
-       RowBox[{"3", ",", "5"}], ")"}], 
-      RowBox[{"AntigeometricItem", "(", 
-       RowBox[{"3", ",", "6"}], ")"}], 
-      RowBox[{"AntigeometricItem", "(", 
-       RowBox[{"3", ",", "7"}], ")"}], 
-      RowBox[{"AntigeometricItem", "(", 
-       RowBox[{"3", ",", "8"}], ")"}]},
+      ItemBox[
+       RowBox[{"-", 
+        FormBox[
+         TagBox[
+          SubscriptBox[
+           StyleBox["\<\"e\"\>",
+            StripOnInput->False,
+            FontFamily->"Times New Roman",
+            FontSize->16,
+            FontWeight->Bold], 
+           StyleBox["\<\"12\"\>",
+            StripOnInput->False,
+            FontFamily->"Times New Roman",
+            FontSize->9]],
+          DisplayForm],
+         TraditionalForm]}],
+       StripOnInput->False], 
+      ItemBox[
+       RowBox[{"-", 
+        FormBox[
+         TagBox[
+          SubscriptBox[
+           StyleBox["\<\"e\"\>",
+            StripOnInput->False,
+            FontFamily->"Times New Roman",
+            FontSize->16,
+            FontWeight->Bold], 
+           StyleBox["\<\"2\"\>",
+            StripOnInput->False,
+            FontFamily->"Times New Roman",
+            FontSize->9]],
+          DisplayForm],
+         TraditionalForm]}],
+       StripOnInput->False], 
+      ItemBox["0",
+       StripOnInput->False], 
+      ItemBox[
+       RowBox[{
+        RowBox[{"-", 
+         FormBox[
+          TagBox[
+           StyleBox["\|01d7d9",
+            FontFamily->"Segoe UI Symbol",
+            FontSize->16],
+           DisplayForm],
+          TraditionalForm]}], "-", 
+        FormBox[
+         TagBox[
+          SubscriptBox[
+           StyleBox["\<\"e\"\>",
+            StripOnInput->False,
+            FontFamily->"Times New Roman",
+            FontSize->16,
+            FontWeight->Bold], 
+           StyleBox["\<\"1\"\>",
+            StripOnInput->False,
+            FontFamily->"Times New Roman",
+            FontSize->9]],
+          DisplayForm],
+         TraditionalForm]}],
+       StripOnInput->False], 
+      ItemBox["0",
+       StripOnInput->False], 
+      ItemBox[
+       FormBox[
+        TagBox[
+         SubscriptBox[
+          StyleBox["\<\"e\"\>",
+           StripOnInput->False,
+           FontFamily->"Times New Roman",
+           FontSize->16,
+           FontWeight->Bold], 
+          StyleBox["\<\"12\"\>",
+           StripOnInput->False,
+           FontFamily->"Times New Roman",
+           FontSize->9]],
+         DisplayForm],
+        TraditionalForm],
+       StripOnInput->False], 
+      ItemBox[
+       RowBox[{
+        FormBox[
+         TagBox[
+          StyleBox["\<\"1\"\>",
+           StripOnInput->False,
+           FontFamily->"Times New Roman",
+           FontSize->16,
+           FontWeight->Bold],
+          DisplayForm],
+         TraditionalForm], "+", 
+        FormBox[
+         TagBox[
+          SubscriptBox[
+           StyleBox["\<\"e\"\>",
+            StripOnInput->False,
+            FontFamily->"Times New Roman",
+            FontSize->16,
+            FontWeight->Bold], 
+           StyleBox["\<\"23\"\>",
+            StripOnInput->False,
+            FontFamily->"Times New Roman",
+            FontSize->9]],
+          DisplayForm],
+         TraditionalForm]}],
+       StripOnInput->False], 
+      ItemBox[
+       FormBox[
+        TagBox[
+         SubscriptBox[
+          StyleBox["\<\"e\"\>",
+           StripOnInput->False,
+           FontFamily->"Times New Roman",
+           FontSize->16,
+           FontWeight->Bold], 
+          StyleBox["\<\"2\"\>",
+           StripOnInput->False,
+           FontFamily->"Times New Roman",
+           FontSize->9]],
+         DisplayForm],
+        TraditionalForm],
+       Background->RGBColor[1., 0.7725490196078432, 0.8588235294117647],
+       StripOnInput->False]},
      {
       FormBox[
        TagBox[
@@ -7169,22 +8509,127 @@ Cell[BoxData[
           FontSize->9]],
         DisplayForm],
        TraditionalForm], 
-      RowBox[{"AntigeometricItem", "(", 
-       RowBox[{"4", ",", "1"}], ")"}], 
-      RowBox[{"AntigeometricItem", "(", 
-       RowBox[{"4", ",", "2"}], ")"}], 
-      RowBox[{"AntigeometricItem", "(", 
-       RowBox[{"4", ",", "3"}], ")"}], 
-      RowBox[{"AntigeometricItem", "(", 
-       RowBox[{"4", ",", "4"}], ")"}], 
-      RowBox[{"AntigeometricItem", "(", 
-       RowBox[{"4", ",", "5"}], ")"}], 
-      RowBox[{"AntigeometricItem", "(", 
-       RowBox[{"4", ",", "6"}], ")"}], 
-      RowBox[{"AntigeometricItem", "(", 
-       RowBox[{"4", ",", "7"}], ")"}], 
-      RowBox[{"AntigeometricItem", "(", 
-       RowBox[{"4", ",", "8"}], ")"}]},
+      ItemBox[
+       RowBox[{"-", 
+        FormBox[
+         TagBox[
+          SubscriptBox[
+           StyleBox["\<\"e\"\>",
+            StripOnInput->False,
+            FontFamily->"Times New Roman",
+            FontSize->16,
+            FontWeight->Bold], 
+           StyleBox["\<\"31\"\>",
+            StripOnInput->False,
+            FontFamily->"Times New Roman",
+            FontSize->9]],
+          DisplayForm],
+         TraditionalForm]}],
+       StripOnInput->False], 
+      ItemBox[
+       FormBox[
+        TagBox[
+         SubscriptBox[
+          StyleBox["\<\"e\"\>",
+           StripOnInput->False,
+           FontFamily->"Times New Roman",
+           FontSize->16,
+           FontWeight->Bold], 
+          StyleBox["\<\"3\"\>",
+           StripOnInput->False,
+           FontFamily->"Times New Roman",
+           FontSize->9]],
+         DisplayForm],
+        TraditionalForm],
+       StripOnInput->False], 
+      ItemBox[
+       RowBox[{
+        FormBox[
+         TagBox[
+          SubscriptBox[
+           StyleBox["\<\"e\"\>",
+            StripOnInput->False,
+            FontFamily->"Times New Roman",
+            FontSize->16,
+            FontWeight->Bold], 
+           StyleBox["\<\"1\"\>",
+            StripOnInput->False,
+            FontFamily->"Times New Roman",
+            FontSize->9]],
+          DisplayForm],
+         TraditionalForm], "-", 
+        FormBox[
+         TagBox[
+          StyleBox["\|01d7d9",
+           FontFamily->"Segoe UI Symbol",
+           FontSize->16],
+          DisplayForm],
+         TraditionalForm]}],
+       StripOnInput->False], 
+      ItemBox["0",
+       StripOnInput->False], 
+      ItemBox[
+       RowBox[{
+        FormBox[
+         TagBox[
+          StyleBox["\<\"1\"\>",
+           StripOnInput->False,
+           FontFamily->"Times New Roman",
+           FontSize->16,
+           FontWeight->Bold],
+          DisplayForm],
+         TraditionalForm], "-", 
+        FormBox[
+         TagBox[
+          SubscriptBox[
+           StyleBox["\<\"e\"\>",
+            StripOnInput->False,
+            FontFamily->"Times New Roman",
+            FontSize->16,
+            FontWeight->Bold], 
+           StyleBox["\<\"23\"\>",
+            StripOnInput->False,
+            FontFamily->"Times New Roman",
+            FontSize->9]],
+          DisplayForm],
+         TraditionalForm]}],
+       StripOnInput->False], 
+      ItemBox[
+       RowBox[{"-", 
+        FormBox[
+         TagBox[
+          SubscriptBox[
+           StyleBox["\<\"e\"\>",
+            StripOnInput->False,
+            FontFamily->"Times New Roman",
+            FontSize->16,
+            FontWeight->Bold], 
+           StyleBox["\<\"31\"\>",
+            StripOnInput->False,
+            FontFamily->"Times New Roman",
+            FontSize->9]],
+          DisplayForm],
+         TraditionalForm]}],
+       StripOnInput->False], 
+      ItemBox["0",
+       StripOnInput->False], 
+      ItemBox[
+       FormBox[
+        TagBox[
+         SubscriptBox[
+          StyleBox["\<\"e\"\>",
+           StripOnInput->False,
+           FontFamily->"Times New Roman",
+           FontSize->16,
+           FontWeight->Bold], 
+          StyleBox["\<\"3\"\>",
+           StripOnInput->False,
+           FontFamily->"Times New Roman",
+           FontSize->9]],
+         DisplayForm],
+        TraditionalForm],
+       Background->RGBColor[1., 0.7725490196078432, 0.8588235294117647],
+       StripOnInput->False]},
      {
       FormBox[
        TagBox[
@@ -7200,22 +8645,129 @@ Cell[BoxData[
           FontSize->9]],
         DisplayForm],
        TraditionalForm], 
-      RowBox[{"AntigeometricItem", "(", 
-       RowBox[{"5", ",", "1"}], ")"}], 
-      RowBox[{"AntigeometricItem", "(", 
-       RowBox[{"5", ",", "2"}], ")"}], 
-      RowBox[{"AntigeometricItem", "(", 
-       RowBox[{"5", ",", "3"}], ")"}], 
-      RowBox[{"AntigeometricItem", "(", 
-       RowBox[{"5", ",", "4"}], ")"}], 
-      RowBox[{"AntigeometricItem", "(", 
-       RowBox[{"5", ",", "5"}], ")"}], 
-      RowBox[{"AntigeometricItem", "(", 
-       RowBox[{"5", ",", "6"}], ")"}], 
-      RowBox[{"AntigeometricItem", "(", 
-       RowBox[{"5", ",", "7"}], ")"}], 
-      RowBox[{"AntigeometricItem", "(", 
-       RowBox[{"5", ",", "8"}], ")"}]},
+      ItemBox[
+       RowBox[{"-", 
+        FormBox[
+         TagBox[
+          SubscriptBox[
+           StyleBox["\<\"e\"\>",
+            StripOnInput->False,
+            FontFamily->"Times New Roman",
+            FontSize->16,
+            FontWeight->Bold], 
+           StyleBox["\<\"2\"\>",
+            StripOnInput->False,
+            FontFamily->"Times New Roman",
+            FontSize->9]],
+          DisplayForm],
+         TraditionalForm]}],
+       StripOnInput->False], 
+      ItemBox[
+       RowBox[{"-", 
+        FormBox[
+         TagBox[
+          SubscriptBox[
+           StyleBox["\<\"e\"\>",
+            StripOnInput->False,
+            FontFamily->"Times New Roman",
+            FontSize->16,
+            FontWeight->Bold], 
+           StyleBox["\<\"12\"\>",
+            StripOnInput->False,
+            FontFamily->"Times New Roman",
+            FontSize->9]],
+          DisplayForm],
+         TraditionalForm]}],
+       StripOnInput->False], 
+      ItemBox["0",
+       StripOnInput->False], 
+      ItemBox[
+       RowBox[{
+        FormBox[
+         TagBox[
+          StyleBox["\<\"1\"\>",
+           StripOnInput->False,
+           FontFamily->"Times New Roman",
+           FontSize->16,
+           FontWeight->Bold],
+          DisplayForm],
+         TraditionalForm], "+", 
+        FormBox[
+         TagBox[
+          SubscriptBox[
+           StyleBox["\<\"e\"\>",
+            StripOnInput->False,
+            FontFamily->"Times New Roman",
+            FontSize->16,
+            FontWeight->Bold], 
+           StyleBox["\<\"23\"\>",
+            StripOnInput->False,
+            FontFamily->"Times New Roman",
+            FontSize->9]],
+          DisplayForm],
+         TraditionalForm]}],
+       StripOnInput->False], 
+      ItemBox["0",
+       StripOnInput->False], 
+      ItemBox[
+       FormBox[
+        TagBox[
+         SubscriptBox[
+          StyleBox["\<\"e\"\>",
+           StripOnInput->False,
+           FontFamily->"Times New Roman",
+           FontSize->16,
+           FontWeight->Bold], 
+          StyleBox["\<\"2\"\>",
+           StripOnInput->False,
+           FontFamily->"Times New Roman",
+           FontSize->9]],
+         DisplayForm],
+        TraditionalForm],
+       Background->RGBColor[1., 0.7725490196078432, 0.8588235294117647],
+       StripOnInput->False], 
+      ItemBox[
+       RowBox[{
+        RowBox[{"-", 
+         FormBox[
+          TagBox[
+           StyleBox["\|01d7d9",
+            FontFamily->"Segoe UI Symbol",
+            FontSize->16],
+           DisplayForm],
+          TraditionalForm]}], "-", 
+        FormBox[
+         TagBox[
+          SubscriptBox[
+           StyleBox["\<\"e\"\>",
+            StripOnInput->False,
+            FontFamily->"Times New Roman",
+            FontSize->16,
+            FontWeight->Bold], 
+           StyleBox["\<\"1\"\>",
+            StripOnInput->False,
+            FontFamily->"Times New Roman",
+            FontSize->9]],
+          DisplayForm],
+         TraditionalForm]}],
+       StripOnInput->False], 
+      ItemBox[
+       FormBox[
+        TagBox[
+         SubscriptBox[
+          StyleBox["\<\"e\"\>",
+           StripOnInput->False,
+           FontFamily->"Times New Roman",
+           FontSize->16,
+           FontWeight->Bold], 
+          StyleBox["\<\"12\"\>",
+           StripOnInput->False,
+           FontFamily->"Times New Roman",
+           FontSize->9]],
+         DisplayForm],
+        TraditionalForm],
+       Background->RGBColor[1., 0.7725490196078432, 0.8588235294117647],
+       StripOnInput->False]},
      {
       FormBox[
        TagBox[
@@ -7231,22 +8783,130 @@ Cell[BoxData[
           FontSize->9]],
         DisplayForm],
        TraditionalForm], 
-      RowBox[{"AntigeometricItem", "(", 
-       RowBox[{"6", ",", "1"}], ")"}], 
-      RowBox[{"AntigeometricItem", "(", 
-       RowBox[{"6", ",", "2"}], ")"}], 
-      RowBox[{"AntigeometricItem", "(", 
-       RowBox[{"6", ",", "3"}], ")"}], 
-      RowBox[{"AntigeometricItem", "(", 
-       RowBox[{"6", ",", "4"}], ")"}], 
-      RowBox[{"AntigeometricItem", "(", 
-       RowBox[{"6", ",", "5"}], ")"}], 
-      RowBox[{"AntigeometricItem", "(", 
-       RowBox[{"6", ",", "6"}], ")"}], 
-      RowBox[{"AntigeometricItem", "(", 
-       RowBox[{"6", ",", "7"}], ")"}], 
-      RowBox[{"AntigeometricItem", "(", 
-       RowBox[{"6", ",", "8"}], ")"}]},
+      ItemBox[
+       FormBox[
+        TagBox[
+         SubscriptBox[
+          StyleBox["\<\"e\"\>",
+           StripOnInput->False,
+           FontFamily->"Times New Roman",
+           FontSize->16,
+           FontWeight->Bold], 
+          StyleBox["\<\"1\"\>",
+           StripOnInput->False,
+           FontFamily->"Times New Roman",
+           FontSize->9]],
+         DisplayForm],
+        TraditionalForm],
+       StripOnInput->False], 
+      ItemBox[
+       FormBox[
+        TagBox[
+         StyleBox["\<\"1\"\>",
+          StripOnInput->False,
+          FontFamily->"Times New Roman",
+          FontSize->16,
+          FontWeight->Bold],
+         DisplayForm],
+        TraditionalForm],
+       Background->RGBColor[1., 0.7725490196078432, 0.8588235294117647],
+       StripOnInput->False], 
+      ItemBox[
+       RowBox[{"-", 
+        FormBox[
+         TagBox[
+          SubscriptBox[
+           StyleBox["\<\"e\"\>",
+            StripOnInput->False,
+            FontFamily->"Times New Roman",
+            FontSize->16,
+            FontWeight->Bold], 
+           StyleBox["\<\"12\"\>",
+            StripOnInput->False,
+            FontFamily->"Times New Roman",
+            FontSize->9]],
+          DisplayForm],
+         TraditionalForm]}],
+       StripOnInput->False], 
+      ItemBox[
+       FormBox[
+        TagBox[
+         SubscriptBox[
+          StyleBox["\<\"e\"\>",
+           StripOnInput->False,
+           FontFamily->"Times New Roman",
+           FontSize->16,
+           FontWeight->Bold], 
+          StyleBox["\<\"31\"\>",
+           StripOnInput->False,
+           FontFamily->"Times New Roman",
+           FontSize->9]],
+         DisplayForm],
+        TraditionalForm],
+       StripOnInput->False], 
+      ItemBox[
+       RowBox[{"-", 
+        FormBox[
+         TagBox[
+          SubscriptBox[
+           StyleBox["\<\"e\"\>",
+            StripOnInput->False,
+            FontFamily->"Times New Roman",
+            FontSize->16,
+            FontWeight->Bold], 
+           StyleBox["\<\"2\"\>",
+            StripOnInput->False,
+            FontFamily->"Times New Roman",
+            FontSize->9]],
+          DisplayForm],
+         TraditionalForm]}],
+       Background->RGBColor[1., 0.7725490196078432, 0.8588235294117647],
+       StripOnInput->False], 
+      ItemBox[
+       FormBox[
+        TagBox[
+         StyleBox["\|01d7d9",
+          FontFamily->"Segoe UI Symbol",
+          FontSize->16],
+         DisplayForm],
+        TraditionalForm],
+       Background->RGBColor[
+        0.8666666666666667, 0.5568627450980392, 0.5568627450980392],
+       StripOnInput->False], 
+      ItemBox[
+       FormBox[
+        TagBox[
+         SubscriptBox[
+          StyleBox["\<\"e\"\>",
+           StripOnInput->False,
+           FontFamily->"Times New Roman",
+           FontSize->16,
+           FontWeight->Bold], 
+          StyleBox["\<\"3\"\>",
+           StripOnInput->False,
+           FontFamily->"Times New Roman",
+           FontSize->9]],
+         DisplayForm],
+        TraditionalForm],
+       Background->RGBColor[1., 0.7725490196078432, 0.8588235294117647],
+       StripOnInput->False], 
+      ItemBox[
+       FormBox[
+        TagBox[
+         SubscriptBox[
+          StyleBox["\<\"e\"\>",
+           StripOnInput->False,
+           FontFamily->"Times New Roman",
+           FontSize->16,
+           FontWeight->Bold], 
+          StyleBox["\<\"23\"\>",
+           StripOnInput->False,
+           FontFamily->"Times New Roman",
+           FontSize->9]],
+         DisplayForm],
+        TraditionalForm],
+       Background->RGBColor[1., 0.7725490196078432, 0.8588235294117647],
+       StripOnInput->False]},
      {
       FormBox[
        TagBox[
@@ -7262,22 +8922,128 @@ Cell[BoxData[
           FontSize->9]],
         DisplayForm],
        TraditionalForm], 
-      RowBox[{"AntigeometricItem", "(", 
-       RowBox[{"7", ",", "1"}], ")"}], 
-      RowBox[{"AntigeometricItem", "(", 
-       RowBox[{"7", ",", "2"}], ")"}], 
-      RowBox[{"AntigeometricItem", "(", 
-       RowBox[{"7", ",", "3"}], ")"}], 
-      RowBox[{"AntigeometricItem", "(", 
-       RowBox[{"7", ",", "4"}], ")"}], 
-      RowBox[{"AntigeometricItem", "(", 
-       RowBox[{"7", ",", "5"}], ")"}], 
-      RowBox[{"AntigeometricItem", "(", 
-       RowBox[{"7", ",", "6"}], ")"}], 
-      RowBox[{"AntigeometricItem", "(", 
-       RowBox[{"7", ",", "7"}], ")"}], 
-      RowBox[{"AntigeometricItem", "(", 
-       RowBox[{"7", ",", "8"}], ")"}]},
+      ItemBox[
+       RowBox[{"-", 
+        FormBox[
+         TagBox[
+          SubscriptBox[
+           StyleBox["\<\"e\"\>",
+            StripOnInput->False,
+            FontFamily->"Times New Roman",
+            FontSize->16,
+            FontWeight->Bold], 
+           StyleBox["\<\"3\"\>",
+            StripOnInput->False,
+            FontFamily->"Times New Roman",
+            FontSize->9]],
+          DisplayForm],
+         TraditionalForm]}],
+       StripOnInput->False], 
+      ItemBox[
+       FormBox[
+        TagBox[
+         SubscriptBox[
+          StyleBox["\<\"e\"\>",
+           StripOnInput->False,
+           FontFamily->"Times New Roman",
+           FontSize->16,
+           FontWeight->Bold], 
+          StyleBox["\<\"31\"\>",
+           StripOnInput->False,
+           FontFamily->"Times New Roman",
+           FontSize->9]],
+         DisplayForm],
+        TraditionalForm],
+       StripOnInput->False], 
+      ItemBox[
+       RowBox[{
+        FormBox[
+         TagBox[
+          StyleBox["\<\"1\"\>",
+           StripOnInput->False,
+           FontFamily->"Times New Roman",
+           FontSize->16,
+           FontWeight->Bold],
+          DisplayForm],
+         TraditionalForm], "-", 
+        FormBox[
+         TagBox[
+          SubscriptBox[
+           StyleBox["\<\"e\"\>",
+            StripOnInput->False,
+            FontFamily->"Times New Roman",
+            FontSize->16,
+            FontWeight->Bold], 
+           StyleBox["\<\"23\"\>",
+            StripOnInput->False,
+            FontFamily->"Times New Roman",
+            FontSize->9]],
+          DisplayForm],
+         TraditionalForm]}],
+       StripOnInput->False], 
+      ItemBox["0",
+       StripOnInput->False], 
+      ItemBox[
+       RowBox[{
+        FormBox[
+         TagBox[
+          SubscriptBox[
+           StyleBox["\<\"e\"\>",
+            StripOnInput->False,
+            FontFamily->"Times New Roman",
+            FontSize->16,
+            FontWeight->Bold], 
+           StyleBox["\<\"1\"\>",
+            StripOnInput->False,
+            FontFamily->"Times New Roman",
+            FontSize->9]],
+          DisplayForm],
+         TraditionalForm], "-", 
+        FormBox[
+         TagBox[
+          StyleBox["\|01d7d9",
+           FontFamily->"Segoe UI Symbol",
+           FontSize->16],
+          DisplayForm],
+         TraditionalForm]}],
+       StripOnInput->False], 
+      ItemBox[
+       RowBox[{"-", 
+        FormBox[
+         TagBox[
+          SubscriptBox[
+           StyleBox["\<\"e\"\>",
+            StripOnInput->False,
+            FontFamily->"Times New Roman",
+            FontSize->16,
+            FontWeight->Bold], 
+           StyleBox["\<\"3\"\>",
+            StripOnInput->False,
+            FontFamily->"Times New Roman",
+            FontSize->9]],
+          DisplayForm],
+         TraditionalForm]}],
+       Background->RGBColor[1., 0.7725490196078432, 0.8588235294117647],
+       StripOnInput->False], 
+      ItemBox["0",
+       StripOnInput->False], 
+      ItemBox[
+       FormBox[
+        TagBox[
+         SubscriptBox[
+          StyleBox["\<\"e\"\>",
+           StripOnInput->False,
+           FontFamily->"Times New Roman",
+           FontSize->16,
+           FontWeight->Bold], 
+          StyleBox["\<\"31\"\>",
+           StripOnInput->False,
+           FontFamily->"Times New Roman",
+           FontSize->9]],
+         DisplayForm],
+        TraditionalForm],
+       Background->RGBColor[1., 0.7725490196078432, 0.8588235294117647],
+       StripOnInput->False]},
      {
       FormBox[
        TagBox[
@@ -7286,22 +9052,131 @@ Cell[BoxData[
          FontSize->16],
         DisplayForm],
        TraditionalForm], 
-      RowBox[{"AntigeometricItem", "(", 
-       RowBox[{"8", ",", "1"}], ")"}], 
-      RowBox[{"AntigeometricItem", "(", 
-       RowBox[{"8", ",", "2"}], ")"}], 
-      RowBox[{"AntigeometricItem", "(", 
-       RowBox[{"8", ",", "3"}], ")"}], 
-      RowBox[{"AntigeometricItem", "(", 
-       RowBox[{"8", ",", "4"}], ")"}], 
-      RowBox[{"AntigeometricItem", "(", 
-       RowBox[{"8", ",", "5"}], ")"}], 
-      RowBox[{"AntigeometricItem", "(", 
-       RowBox[{"8", ",", "6"}], ")"}], 
-      RowBox[{"AntigeometricItem", "(", 
-       RowBox[{"8", ",", "7"}], ")"}], 
-      RowBox[{"AntigeometricItem", "(", 
-       RowBox[{"8", ",", "8"}], ")"}]}
+      ItemBox[
+       FormBox[
+        TagBox[
+         StyleBox["\<\"1\"\>",
+          StripOnInput->False,
+          FontFamily->"Times New Roman",
+          FontSize->16,
+          FontWeight->Bold],
+         DisplayForm],
+        TraditionalForm],
+       Background->RGBColor[1., 0.7725490196078432, 0.8588235294117647],
+       StripOnInput->False], 
+      ItemBox[
+       FormBox[
+        TagBox[
+         SubscriptBox[
+          StyleBox["\<\"e\"\>",
+           StripOnInput->False,
+           FontFamily->"Times New Roman",
+           FontSize->16,
+           FontWeight->Bold], 
+          StyleBox["\<\"1\"\>",
+           StripOnInput->False,
+           FontFamily->"Times New Roman",
+           FontSize->9]],
+         DisplayForm],
+        TraditionalForm],
+       Background->RGBColor[1., 0.7725490196078432, 0.8588235294117647],
+       StripOnInput->False], 
+      ItemBox[
+       FormBox[
+        TagBox[
+         SubscriptBox[
+          StyleBox["\<\"e\"\>",
+           StripOnInput->False,
+           FontFamily->"Times New Roman",
+           FontSize->16,
+           FontWeight->Bold], 
+          StyleBox["\<\"2\"\>",
+           StripOnInput->False,
+           FontFamily->"Times New Roman",
+           FontSize->9]],
+         DisplayForm],
+        TraditionalForm],
+       Background->RGBColor[1., 0.7725490196078432, 0.8588235294117647],
+       StripOnInput->False], 
+      ItemBox[
+       FormBox[
+        TagBox[
+         SubscriptBox[
+          StyleBox["\<\"e\"\>",
+           StripOnInput->False,
+           FontFamily->"Times New Roman",
+           FontSize->16,
+           FontWeight->Bold], 
+          StyleBox["\<\"3\"\>",
+           StripOnInput->False,
+           FontFamily->"Times New Roman",
+           FontSize->9]],
+         DisplayForm],
+        TraditionalForm],
+       Background->RGBColor[1., 0.7725490196078432, 0.8588235294117647],
+       StripOnInput->False], 
+      ItemBox[
+       FormBox[
+        TagBox[
+         SubscriptBox[
+          StyleBox["\<\"e\"\>",
+           StripOnInput->False,
+           FontFamily->"Times New Roman",
+           FontSize->16,
+           FontWeight->Bold], 
+          StyleBox["\<\"12\"\>",
+           StripOnInput->False,
+           FontFamily->"Times New Roman",
+           FontSize->9]],
+         DisplayForm],
+        TraditionalForm],
+       Background->RGBColor[1., 0.7725490196078432, 0.8588235294117647],
+       StripOnInput->False], 
+      ItemBox[
+       FormBox[
+        TagBox[
+         SubscriptBox[
+          StyleBox["\<\"e\"\>",
+           StripOnInput->False,
+           FontFamily->"Times New Roman",
+           FontSize->16,
+           FontWeight->Bold], 
+          StyleBox["\<\"23\"\>",
+           StripOnInput->False,
+           FontFamily->"Times New Roman",
+           FontSize->9]],
+         DisplayForm],
+        TraditionalForm],
+       Background->RGBColor[1., 0.7725490196078432, 0.8588235294117647],
+       StripOnInput->False], 
+      ItemBox[
+       FormBox[
+        TagBox[
+         SubscriptBox[
+          StyleBox["\<\"e\"\>",
+           StripOnInput->False,
+           FontFamily->"Times New Roman",
+           FontSize->16,
+           FontWeight->Bold], 
+          StyleBox["\<\"31\"\>",
+           StripOnInput->False,
+           FontFamily->"Times New Roman",
+           FontSize->9]],
+         DisplayForm],
+        TraditionalForm],
+       Background->RGBColor[1., 0.7725490196078432, 0.8588235294117647],
+       StripOnInput->False], 
+      ItemBox[
+       FormBox[
+        TagBox[
+         StyleBox["\|01d7d9",
+          FontFamily->"Segoe UI Symbol",
+          FontSize->16],
+         DisplayForm],
+        TraditionalForm],
+       Background->RGBColor[
+        0.8666666666666667, 0.5568627450980392, 0.5568627450980392],
+       StripOnInput->False]}
     },
     AutoDelete->False,
     GridBoxBackground->{"Columns" -> {{None}}, "Rows" -> {
@@ -7333,14 +9208,16 @@ Cell[BoxData[
       "Rows" -> {{2.25}}},
     GridBoxSpacings->{"Columns" -> {{0}}, "Rows" -> {{0}}}],
    "Grid"], TraditionalForm]], "Output",
- CellChangeTimes->{3.944784589479955*^9, 3.9447873849529495`*^9, 
-  3.9448452558481817`*^9, 3.944879785033492*^9, 3.94488345662313*^9, 
-  3.9449352458655024`*^9, 3.9449352821444025`*^9, 3.9449363247549305`*^9, 
-  3.94496096482094*^9, 3.956877144368246*^9, 3.977773907845339*^9, 
-  3.977775014549633*^9, 3.977775315799984*^9},
+ CellChangeTimes->{
+  3.944784589479955*^9, 3.9447873849529495`*^9, 3.9448452558481817`*^9, 
+   3.944879785033492*^9, 3.94488345662313*^9, 3.9449352458655024`*^9, 
+   3.9449352821444025`*^9, 3.9449363247549305`*^9, 3.94496096482094*^9, 
+   3.956877144368246*^9, 3.977773907845339*^9, 3.977775014549633*^9, 
+   3.977775315799984*^9, 3.9777821019023867`*^9, 3.9777828081509867`*^9, {
+   3.977782871770015*^9, 3.977782895788197*^9}, 3.977783533321254*^9},
  CellLabel->
-  "Out[17]//TraditionalForm=",ExpressionUUID->"33522411-4bee-4435-835b-\
-d6c38345e05f"]
+  "Out[22]//TraditionalForm=",ExpressionUUID->"997bde2b-4cdf-4dfe-9288-\
+51ae697e6388"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]],
@@ -7362,7 +9239,7 @@ Cell[BoxData[
   3.944705994684825*^9, 3.9447059979301558`*^9}, {3.9447850089338813`*^9, 
   3.944785014131334*^9}, {3.944879924481105*^9, 3.9448799568843174`*^9}, {
   3.944935326646351*^9, 3.9449353290560827`*^9}},
- CellLabel->"In[18]:=",ExpressionUUID->"301e1331-83d5-4b97-ae02-8a5795335857"],
+ CellLabel->"In[23]:=",ExpressionUUID->"301e1331-83d5-4b97-ae02-8a5795335857"],
 
 Cell[BoxData[
  RowBox[{"NameList", ":=", 
@@ -7374,7 +9251,7 @@ Cell[BoxData[
   3.9447060019319973`*^9}, {3.944785016691038*^9, 3.9447850372946424`*^9}, {
   3.944879919363855*^9, 3.9448799224754915`*^9}, {3.9449353207831793`*^9, 
   3.9449353238659716`*^9}},
- CellLabel->"In[19]:=",ExpressionUUID->"e3fe946a-b006-490d-9f89-6ed8af5f6b44"],
+ CellLabel->"In[24]:=",ExpressionUUID->"e3fe946a-b006-490d-9f89-6ed8af5f6b44"],
 
 Cell[BoxData[
  RowBox[{"p", ":=", 
@@ -7389,7 +9266,7 @@ Cell[BoxData[
    3.944879917291102*^9, {3.944880290881183*^9, 3.9448802969495854`*^9}, {
    3.944935474407138*^9, 3.944935474675765*^9}, {3.9449355093028*^9, 
    3.9449355119296756`*^9}},
- CellLabel->"In[20]:=",ExpressionUUID->"bd61b23e-b47f-46f0-bb3f-56c48aa7a131"],
+ CellLabel->"In[25]:=",ExpressionUUID->"bd61b23e-b47f-46f0-bb3f-56c48aa7a131"],
 
 Cell[BoxData[
  RowBox[{"a", ":=", 
@@ -7401,7 +9278,7 @@ Cell[BoxData[
    RowBox[{"az", " ", 
     RowBox[{"e", "[", "3", "]"}]}]}]}]], "Input",
  CellChangeTimes->{3.8960562948988447`*^9, 3.944935529275814*^9},
- CellLabel->"In[21]:=",ExpressionUUID->"1c217c93-e00d-49da-9ccc-891327dfdcfb"],
+ CellLabel->"In[26]:=",ExpressionUUID->"1c217c93-e00d-49da-9ccc-891327dfdcfb"],
 
 Cell[BoxData[
  RowBox[{"d", ":=", 
@@ -7419,7 +9296,7 @@ Cell[BoxData[
   3.8960578562566137`*^9, 3.896057866006611*^9}, {3.896126405023614*^9, 
   3.89612641114989*^9}, {3.8975151156514196`*^9, 3.8975151500347805`*^9}, {
   3.89751518641179*^9, 3.8975151909434385`*^9}},
- CellLabel->"In[22]:=",ExpressionUUID->"979d6013-4805-40cf-a8dd-8d29372b441c"],
+ CellLabel->"In[27]:=",ExpressionUUID->"979d6013-4805-40cf-a8dd-8d29372b441c"],
 
 Cell[BoxData[
  RowBox[{
@@ -7434,7 +9311,7 @@ Cell[BoxData[
   3.94488002501742*^9, 3.9448800475893083`*^9}, {3.944935340727337*^9, 
   3.944935349133092*^9}, {3.9449353836403*^9, 3.944935383856264*^9}, {
   3.9449359496111865`*^9, 3.9449359499313035`*^9}},
- CellLabel->"In[23]:=",ExpressionUUID->"8f10f73c-d2d3-42ba-84c9-93fc45dd40c1"],
+ CellLabel->"In[28]:=",ExpressionUUID->"8f10f73c-d2d3-42ba-84c9-93fc45dd40c1"],
 
 Cell[BoxData[
  RowBox[{
@@ -7450,7 +9327,7 @@ Cell[BoxData[
  CellChangeTimes->{{3.9447884774930353`*^9, 3.9447884791422415`*^9}, 
    3.9447887989125767`*^9, 3.944880111760665*^9, 3.9449353806963*^9, {
    3.9449357602117414`*^9, 3.9449357610860677`*^9}},
- CellLabel->"In[24]:=",ExpressionUUID->"75165b85-7d1e-4973-a526-7fb1decb8eda"]
+ CellLabel->"In[29]:=",ExpressionUUID->"75165b85-7d1e-4973-a526-7fb1decb8eda"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -7517,7 +9394,7 @@ Cell[BoxData[
    3.9447878526365643`*^9, 3.9447878531341343`*^9}, {3.9447879469789524`*^9, 
    3.9447879703645134`*^9}, {3.944880138359724*^9, 3.944880159727824*^9}, {
    3.9449354262333384`*^9, 3.9449354518040085`*^9}},
- CellLabel->"In[25]:=",ExpressionUUID->"0b97bd73-e9a2-4e56-afe3-70f4c207ab5a"],
+ CellLabel->"In[30]:=",ExpressionUUID->"0b97bd73-e9a2-4e56-afe3-70f4c207ab5a"],
 
 Cell[BoxData[
  FormBox[
@@ -7686,10 +9563,12 @@ Cell[BoxData[
    3.944845256020116*^9, {3.9448801418412232`*^9, 3.944880161105461*^9}, 
    3.944883456702688*^9, 3.9449354567144885`*^9, 3.944935550038945*^9, 
    3.944936324805982*^9, 3.944960964857957*^9, 3.956877144415715*^9, 
-   3.977773907883732*^9, 3.977775014581895*^9, 3.977775315837426*^9},
+   3.977773907883732*^9, 3.977775014581895*^9, 3.977775315837426*^9, 
+   3.977782101963799*^9, 3.977782808187667*^9, 3.9777828958413477`*^9, 
+   3.977783533354035*^9},
  CellLabel->
-  "Out[25]//TraditionalForm=",ExpressionUUID->"093d4d9c-f763-47ff-9877-\
-e3657104c18c"]
+  "Out[30]//TraditionalForm=",ExpressionUUID->"42ad4ff0-04e9-458d-95d0-\
+f5423b90df9c"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -7748,7 +9627,7 @@ Cell[BoxData[
    3.9447878526365643`*^9, 3.9447878531341343`*^9}, {3.9447879469789524`*^9, 
    3.944787995711672*^9}, {3.944880149472563*^9, 3.9448801632420673`*^9}, {
    3.9449355589662385`*^9, 3.9449355641595774`*^9}},
- CellLabel->"In[26]:=",ExpressionUUID->"4fb4dc3f-9b42-4e85-b10e-dc2abd5debe5"],
+ CellLabel->"In[31]:=",ExpressionUUID->"4fb4dc3f-9b42-4e85-b10e-dc2abd5debe5"],
 
 Cell[BoxData[
  FormBox[
@@ -7918,10 +9797,11 @@ Cell[BoxData[
    3.944880163736089*^9}, 3.944883456725705*^9, {3.9449355605086775`*^9, 
    3.9449355644299183`*^9}, 3.944936324827499*^9, 3.944960964874466*^9, 
    3.956877144439847*^9, 3.977773907895976*^9, 3.977775014591835*^9, 
-   3.977775315847519*^9},
+   3.977775315847519*^9, 3.97778210198118*^9, 3.977782808198132*^9, 
+   3.977782895851366*^9, 3.9777835333634663`*^9},
  CellLabel->
-  "Out[26]//TraditionalForm=",ExpressionUUID->"8ad7d73b-374a-4cad-818a-\
-288581c842e4"]
+  "Out[31]//TraditionalForm=",ExpressionUUID->"254528bc-d781-4fc0-97ae-\
+992d5056c804"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -7980,7 +9860,7 @@ Cell[BoxData[
    3.9447878526365643`*^9, 3.9447878531341343`*^9}, {3.9447879469789524`*^9, 
    3.9447880289716578`*^9}, {3.944880168836316*^9, 3.944880170300186*^9}, {
    3.944935578104231*^9, 3.944935580105255*^9}},
- CellLabel->"In[27]:=",ExpressionUUID->"01e65a53-e313-4308-9b84-9e0257d03616"],
+ CellLabel->"In[32]:=",ExpressionUUID->"01e65a53-e313-4308-9b84-9e0257d03616"],
 
 Cell[BoxData[
  FormBox[
@@ -8174,10 +10054,11 @@ Cell[BoxData[
   3.9447882253340592`*^9, 3.94484525611171*^9, 3.944880171373601*^9, 
   3.944883456753219*^9, 3.944935581088273*^9, 3.944936324847014*^9, 
   3.9449609648904743`*^9, 3.9568771444633617`*^9, 3.9777739079119873`*^9, 
-  3.977775014602543*^9, 3.977775315858945*^9},
+  3.977775014602543*^9, 3.977775315858945*^9, 3.9777821019978313`*^9, 
+  3.977782808210266*^9, 3.9777828958646793`*^9, 3.977783533376937*^9},
  CellLabel->
-  "Out[27]//TraditionalForm=",ExpressionUUID->"ff75d6bd-134d-46ea-a41b-\
-e90617d1b454"]
+  "Out[32]//TraditionalForm=",ExpressionUUID->"e47b6eef-b242-434b-a2a4-\
+0ae731584a70"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -8236,7 +10117,7 @@ Cell[BoxData[
    3.9447878526365643`*^9, 3.9447878531341343`*^9}, {3.9447879469789524`*^9, 
    3.944788045274829*^9}, {3.9448801791119723`*^9, 3.9448801804594793`*^9}, {
    3.944935590380375*^9, 3.9449355916922398`*^9}},
- CellLabel->"In[28]:=",ExpressionUUID->"e9f3160a-4996-412d-b99a-b3141d613cf9"],
+ CellLabel->"In[33]:=",ExpressionUUID->"e9f3160a-4996-412d-b99a-b3141d613cf9"],
 
 Cell[BoxData[
  FormBox[
@@ -8466,10 +10347,11 @@ Cell[BoxData[
   3.944845256168233*^9, 3.944880181806391*^9, 3.944883456785243*^9, 
   3.9449355926319256`*^9, 3.9449363248961134`*^9, 3.944960964906478*^9, 
   3.9568771444825735`*^9, 3.977773907928833*^9, 3.97777501461672*^9, 
-  3.9777753158746567`*^9},
+  3.9777753158746567`*^9, 3.977782102014896*^9, 3.977782808226138*^9, 
+  3.97778289588181*^9, 3.977783533392971*^9},
  CellLabel->
-  "Out[28]//TraditionalForm=",ExpressionUUID->"1bcaa5b4-789e-46ce-8bc7-\
-cb1625de39ea"]
+  "Out[33]//TraditionalForm=",ExpressionUUID->"d4673119-3025-46b4-9567-\
+43f7a7dd441e"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -8529,7 +10411,7 @@ Cell[BoxData[
    3.944788045274829*^9}, {3.944788080187806*^9, 3.9447880833517056`*^9}, {
    3.9448801896877537`*^9, 3.944880190971902*^9}, {3.9449355995974097`*^9, 
    3.9449356007803235`*^9}},
- CellLabel->"In[29]:=",ExpressionUUID->"68df73ab-4358-48ca-9474-14dd301c833f"],
+ CellLabel->"In[34]:=",ExpressionUUID->"68df73ab-4358-48ca-9474-14dd301c833f"],
 
 Cell[BoxData[
  FormBox[
@@ -8757,10 +10639,11 @@ Cell[BoxData[
   3.9448452562252674`*^9, 3.944880191563903*^9, 3.9448834568162537`*^9, 
   3.944935601428523*^9, 3.94493632491763*^9, 3.9449609649219365`*^9, 
   3.956877144501581*^9, 3.977773907945023*^9, 3.977775014629881*^9, 
-  3.977775315891222*^9},
+  3.977775315891222*^9, 3.9777821020314083`*^9, 3.977782808243321*^9, 
+  3.9777828958996763`*^9, 3.977783533407042*^9},
  CellLabel->
-  "Out[29]//TraditionalForm=",ExpressionUUID->"714fb34d-5fa3-43de-836e-\
-a05458068b22"]
+  "Out[34]//TraditionalForm=",ExpressionUUID->"c660afd8-83f5-440b-9a62-\
+eb5e992bca73"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -8820,7 +10703,7 @@ Cell[BoxData[
    3.944788045274829*^9}, {3.944788080187806*^9, 3.9447880833517056`*^9}, {
    3.944788259003118*^9, 3.9447882626917205`*^9}, {3.9448801945694637`*^9, 
    3.944880196057475*^9}, {3.944935604830415*^9, 3.944935606109925*^9}},
- CellLabel->"In[30]:=",ExpressionUUID->"b24f62b9-b290-48c6-aef5-f10036bb7cbc"],
+ CellLabel->"In[35]:=",ExpressionUUID->"b24f62b9-b290-48c6-aef5-f10036bb7cbc"],
 
 Cell[BoxData[
  FormBox[
@@ -9060,10 +10943,11 @@ Cell[BoxData[
    3.9448452563328457`*^9, 3.9448801967193117`*^9, 3.944883456856782*^9, 
    3.9449356065661936`*^9, 3.944936324939147*^9, 3.944960964938444*^9, 
    3.956877144520009*^9, 3.9777739079591722`*^9, 3.9777750146440573`*^9, 
-   3.9777753159080687`*^9},
+   3.9777753159080687`*^9, 3.977782102048316*^9, 3.977782808260089*^9, 
+   3.977782895916103*^9, 3.977783533424011*^9},
  CellLabel->
-  "Out[30]//TraditionalForm=",ExpressionUUID->"0e07dc53-4f01-4b8d-a088-\
-4d555e56355b"]
+  "Out[35]//TraditionalForm=",ExpressionUUID->"b9c90b36-d06b-4c17-b7b1-\
+9e3912e8a059"]
 }, Open  ]]
 }, Open  ]],
 
@@ -9131,7 +11015,7 @@ Cell[BoxData[
    3.9447878526365643`*^9, 3.9447878531341343`*^9}, {3.944788993495816*^9, 
    3.944789007857872*^9}, {3.9448803256116786`*^9, 3.94488032585448*^9}, {
    3.944935630359058*^9, 3.9449356304741583`*^9}},
- CellLabel->"In[31]:=",ExpressionUUID->"29625381-39b9-4d7c-a6dd-5ab75bdf32de"],
+ CellLabel->"In[36]:=",ExpressionUUID->"29625381-39b9-4d7c-a6dd-5ab75bdf32de"],
 
 Cell[BoxData[
  FormBox[
@@ -9420,10 +11304,12 @@ Cell[BoxData[
  CellChangeTimes->{3.9447890126715527`*^9, 3.94484525645002*^9, 
   3.9448803268115945`*^9, 3.9448834569519253`*^9, 3.9449356309170065`*^9, 
   3.944936324967681*^9, 3.9449609649554577`*^9, 3.956877144539466*^9, 
-  3.977773907975472*^9, 3.977775014659492*^9, 3.977775315925151*^9},
+  3.977773907975472*^9, 3.977775014659492*^9, 3.977775315925151*^9, 
+  3.9777821020658817`*^9, 3.9777828082773952`*^9, 3.9777828959325857`*^9, 
+  3.977783533440984*^9},
  CellLabel->
-  "Out[31]//TraditionalForm=",ExpressionUUID->"bf3082f3-1d7b-46cd-beee-\
-e1b99993a61e"]
+  "Out[36]//TraditionalForm=",ExpressionUUID->"157d1c3f-3c19-44fe-9eb8-\
+974c165ae550"]
 }, Open  ]]
 }, Open  ]],
 
@@ -9521,7 +11407,7 @@ Cell[BoxData[
   3.9447886107221994`*^9}, {3.9447889523551826`*^9, 3.944788959249411*^9}, {
   3.9448803702730293`*^9, 3.9448803739029565`*^9}, {3.9449356575457096`*^9, 
   3.9449356597911396`*^9}},
- CellLabel->"In[32]:=",ExpressionUUID->"e0727a6f-c43d-4ba0-b568-ff5dbf170446"],
+ CellLabel->"In[37]:=",ExpressionUUID->"e0727a6f-c43d-4ba0-b568-ff5dbf170446"],
 
 Cell[BoxData[
  FormBox[
@@ -9890,10 +11776,11 @@ Cell[BoxData[
   3.9448452566773744`*^9, 3.9448803766912737`*^9, 3.944883457042986*^9, 
   3.944935660383498*^9, 3.9449363250518055`*^9, 3.944960965011984*^9, 
   3.956877144601468*^9, 3.977773908045038*^9, 3.977775014720768*^9, 
-  3.977775315992262*^9},
+  3.977775315992262*^9, 3.977782102135306*^9, 3.9777828083109283`*^9, 
+  3.977782895965322*^9, 3.977783533501182*^9},
  CellLabel->
-  "Out[32]//TraditionalForm=",ExpressionUUID->"02084709-4cf9-4f08-ae22-\
-4dee67793d47"]
+  "Out[37]//TraditionalForm=",ExpressionUUID->"6c13c03a-1bef-4442-bae8-\
+b5ea1afcc65f"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -9998,7 +11885,7 @@ Cell[BoxData[
   3.9447886107221994`*^9}, {3.944788860158407*^9, 3.944788918855153*^9}, {
   3.944880388882518*^9, 3.9448803991737413`*^9}, {3.9448804326755676`*^9, 
   3.944880437617089*^9}, {3.944935676700843*^9, 3.944935687825598*^9}},
- CellLabel->"In[33]:=",ExpressionUUID->"4d683b24-ded7-40e8-a2c5-4694e5f6a84d"],
+ CellLabel->"In[38]:=",ExpressionUUID->"4d683b24-ded7-40e8-a2c5-4694e5f6a84d"],
 
 Cell[BoxData[
  FormBox[
@@ -10306,10 +12193,12 @@ Cell[BoxData[
    3.944880437975136*^9}, 3.9448834572671394`*^9, 3.944935689197462*^9, 
    3.944935765844678*^9, {3.9449359395535955`*^9, 3.944935954006273*^9}, 
    3.9449363251058564`*^9, 3.944960965061513*^9, 3.9568771446554737`*^9, 
-   3.9777739080879707`*^9, 3.9777750147623663`*^9, 3.977775316037962*^9},
+   3.9777739080879707`*^9, 3.9777750147623663`*^9, 3.977775316037962*^9, 
+   3.977782102182185*^9, 3.977782808355095*^9, 3.97778289600804*^9, 
+   3.977783533543284*^9},
  CellLabel->
-  "Out[33]//TraditionalForm=",ExpressionUUID->"66397a33-b7ea-474b-b7e3-\
-434d151b74e2"]
+  "Out[38]//TraditionalForm=",ExpressionUUID->"3df2b058-cf08-432a-aa98-\
+497a4ccb4368"]
 }, Open  ]]
 }, Open  ]],
 
@@ -10438,7 +12327,7 @@ Cell[BoxData[
    3.9447066164384146`*^9}, 3.94478779046704*^9, {3.944789637391246*^9, 
    3.944789673531045*^9}, {3.9448805138831015`*^9, 3.9448805162894*^9}, {
    3.944935970253292*^9, 3.9449359779697127`*^9}},
- CellLabel->"In[34]:=",ExpressionUUID->"9d947714-d9fc-4b25-b12c-ef3b6b3cd40c"],
+ CellLabel->"In[39]:=",ExpressionUUID->"9d947714-d9fc-4b25-b12c-ef3b6b3cd40c"],
 
 Cell[BoxData[
  FormBox[
@@ -10572,15 +12461,19 @@ Cell[BoxData[
    3.9448452573433*^9, 3.944880518060372*^9, 3.944883457291151*^9, {
    3.9449359730687957`*^9, 3.944935982058988*^9}, 3.9449363251278715`*^9, 
    3.944960965077518*^9, 3.956877144677474*^9, 3.977773908097136*^9, 
-   3.9777750147735853`*^9, 3.977775316049827*^9},
+   3.9777750147735853`*^9, 3.977775316049827*^9, 3.977782102207443*^9, 
+   3.977782808368074*^9, 3.977782896022114*^9, 3.977783533554818*^9},
  CellLabel->
-  "Out[34]//TraditionalForm=",ExpressionUUID->"554a6bd8-6669-4f5a-aa64-\
-572b4a88e9b8"]
+  "Out[39]//TraditionalForm=",ExpressionUUID->"45f86c4e-06ca-4829-9067-\
+d4d827e64402"]
 }, Open  ]]
 }, Open  ]]
 },
 WindowSize->{1352, 820},
 WindowMargins->{{0, Automatic}, {Automatic, 0}},
+InputAutoReplacements->{
+ "dot" -> TemplateBox[{}, "Dot", DisplayFunction -> ("\[Dot]"& ), 
+    InterpretationFunction :> (Sequence["~", "Dot", "~"]& )]},
 Magnification:>1. Inherited,
 FrontEndVersion->"14.3 for Mac OS X ARM (64-bit) (July 8, 2025)",
 StyleDefinitions->"Default.nb",
@@ -10603,162 +12496,160 @@ Cell[CellGroupData[{
 Cell[1712, 47, 209, 4, 82, "Section",ExpressionUUID->"a0d0058e-200f-45e4-b5f9-5ded9ec9d3dd"],
 Cell[CellGroupData[{
 Cell[1946, 55, 5949, 107, 113, "Input",ExpressionUUID->"3cc061c1-b688-47b0-a524-8612b7696a71"],
-Cell[7898, 164, 6852, 236, 88, "Output",ExpressionUUID->"23aca572-c95f-4bab-a177-d9a2fe652b21"]
+Cell[7898, 164, 6954, 238, 88, "Output",ExpressionUUID->"921de5d4-7ac2-4106-b37d-b2081c5ccb95"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[14799, 406, 180, 3, 82, "Section",ExpressionUUID->"37bb2f98-cb3a-43dd-b1fe-3e856253c59b"],
+Cell[14901, 408, 180, 3, 82, "Section",ExpressionUUID->"37bb2f98-cb3a-43dd-b1fe-3e856253c59b"],
 Cell[CellGroupData[{
-Cell[15004, 413, 6506, 121, 138, "Input",ExpressionUUID->"0e3cb3a3-d3f7-4a37-b36c-4310a53e1e5f"],
-Cell[21513, 536, 9886, 348, 121, "Output",ExpressionUUID->"d4eb00a0-d4ea-45df-b54e-0aa18332ab28"]
+Cell[15106, 415, 6506, 121, 138, "Input",ExpressionUUID->"0e3cb3a3-d3f7-4a37-b36c-4310a53e1e5f"],
+Cell[21615, 538, 9981, 350, 121, "Output",ExpressionUUID->"35a7de48-4ca6-4a1d-a666-65692b13ce19"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[31448, 890, 177, 3, 82, "Section",ExpressionUUID->"8e6caf5d-a0f1-40e1-8b00-94a34ba2c8f3"],
+Cell[31645, 894, 177, 3, 82, "Section",ExpressionUUID->"8e6caf5d-a0f1-40e1-8b00-94a34ba2c8f3"],
 Cell[CellGroupData[{
-Cell[31650, 897, 6775, 125, 138, "Input",ExpressionUUID->"4a22f616-49e4-4fd0-b2ef-dcd773357649"],
-Cell[38428, 1024, 10054, 351, 121, "Output",ExpressionUUID->"bafd7367-183d-43b6-855c-6667cc2c9af8"]
+Cell[31847, 901, 6775, 125, 138, "Input",ExpressionUUID->"4a22f616-49e4-4fd0-b2ef-dcd773357649"],
+Cell[38625, 1028, 10144, 352, 121, "Output",ExpressionUUID->"4d5dfddf-faff-447d-a359-af94f4d9d7f5"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[48531, 1381, 161, 3, 82, "Section",ExpressionUUID->"35300fa4-235d-4499-915c-dabcc511ece6"],
+Cell[48818, 1386, 161, 3, 82, "Section",ExpressionUUID->"35300fa4-235d-4499-915c-dabcc511ece6"],
+Cell[48982, 1391, 170, 2, 36, "Input",ExpressionUUID->"db08c399-2297-4ffe-880b-36d16f5a8f94"],
+Cell[49155, 1395, 1770, 38, 62, "Input",ExpressionUUID->"dd3673a9-fb2e-4e6b-bd50-579014e6c13a"],
+Cell[50928, 1435, 1983, 41, 62, "Input",ExpressionUUID->"33f04615-0f85-4be1-a50a-98c768c411e3"],
 Cell[CellGroupData[{
-Cell[48717, 1388, 1723, 38, 62, "Input",ExpressionUUID->"dd3673a9-fb2e-4e6b-bd50-579014e6c13a"],
-Cell[50443, 1428, 679, 14, 32, "Message",ExpressionUUID->"5fd424b2-a826-494f-a01e-1f477000ad63"]
-}, Open  ]],
-Cell[51137, 1445, 1908, 40, 62, "Input",ExpressionUUID->"33f04615-0f85-4be1-a50a-98c768c411e3"],
+Cell[52936, 1480, 160, 3, 66, "Subsection",ExpressionUUID->"7a80076c-c5f8-46f1-a23f-933f1df120ff"],
 Cell[CellGroupData[{
-Cell[53070, 1489, 160, 3, 66, "Subsection",ExpressionUUID->"7a80076c-c5f8-46f1-a23f-933f1df120ff"],
-Cell[CellGroupData[{
-Cell[53255, 1496, 6628, 119, 113, "Input",ExpressionUUID->"fb7d68eb-b976-474d-85f6-a7a8db19323e"],
-Cell[59886, 1617, 11966, 380, 616, "Output",ExpressionUUID->"5a32bf91-3acb-47d7-a311-693aa9c77b07"]
+Cell[53121, 1487, 6628, 119, 113, "Input",ExpressionUUID->"fb7d68eb-b976-474d-85f6-a7a8db19323e"],
+Cell[59752, 1608, 13476, 474, 316, "Output",ExpressionUUID->"ba6cbc2a-c123-4d05-9c6a-a658d41c2c1a"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[71901, 2003, 163, 3, 66, "Subsection",ExpressionUUID->"f5600364-0cd0-4b26-92d9-fb608de843d1"],
+Cell[73277, 2088, 163, 3, 66, "Subsection",ExpressionUUID->"f5600364-0cd0-4b26-92d9-fb608de843d1"],
 Cell[CellGroupData[{
-Cell[72089, 2010, 6652, 120, 113, "Input",ExpressionUUID->"e1ce0ef5-ff00-4a4e-b29a-4de1138f258b"],
-Cell[78744, 2132, 12165, 379, 779, "Output",ExpressionUUID->"b7ff04a1-5b7d-44a0-a138-c9d29d7e0c0e"]
+Cell[73465, 2095, 6653, 120, 113, "Input",ExpressionUUID->"e1ce0ef5-ff00-4a4e-b29a-4de1138f258b"],
+Cell[80121, 2217, 12902, 456, 316, "Output",ExpressionUUID->"8d8a7481-d809-42bd-be03-ff81fba8d8fb"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[90970, 2518, 166, 3, 82, "Section",ExpressionUUID->"7ed232df-cb39-4d5d-bc2d-fef04fc892e6"],
-Cell[91139, 2523, 1377, 31, 36, "Input",ExpressionUUID->"afeac85e-dd3d-4c7a-94a7-7dad459c6eed"],
-Cell[92519, 2556, 1285, 30, 36, "Input",ExpressionUUID->"d8be0c0c-4b75-4877-8042-d802c09ba6d2"],
+Cell[93084, 2680, 166, 3, 82, "Section",ExpressionUUID->"7ed232df-cb39-4d5d-bc2d-fef04fc892e6"],
+Cell[93253, 2685, 1378, 31, 36, "Input",ExpressionUUID->"afeac85e-dd3d-4c7a-94a7-7dad459c6eed"],
+Cell[94634, 2718, 1286, 30, 36, "Input",ExpressionUUID->"d8be0c0c-4b75-4877-8042-d802c09ba6d2"],
 Cell[CellGroupData[{
-Cell[93829, 2590, 161, 3, 66, "Subsection",ExpressionUUID->"7f55bef6-5df2-4e7a-8660-b65c43969f71"],
+Cell[95945, 2752, 161, 3, 66, "Subsection",ExpressionUUID->"7f55bef6-5df2-4e7a-8660-b65c43969f71"],
 Cell[CellGroupData[{
-Cell[94015, 2597, 6589, 119, 113, "Input",ExpressionUUID->"a3dc4c85-10b5-4291-8d32-2c0c07b666c7"],
-Cell[100607, 2718, 21337, 726, 316, "Output",ExpressionUUID->"0df58226-904c-4a43-9fa9-da3ee14f72c6"]
+Cell[96131, 2759, 6589, 119, 113, "Input",ExpressionUUID->"a3dc4c85-10b5-4291-8d32-2c0c07b666c7"],
+Cell[102723, 2880, 21432, 727, 316, "Output",ExpressionUUID->"ce8fa8d8-b408-47a1-8b87-62783e1ba3db"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[121993, 3450, 167, 3, 66, "Subsection",ExpressionUUID->"a0065e80-fd60-4142-bb96-058420ca4e53"],
+Cell[124204, 3613, 167, 3, 66, "Subsection",ExpressionUUID->"a0065e80-fd60-4142-bb96-058420ca4e53"],
 Cell[CellGroupData[{
-Cell[122185, 3457, 6375, 116, 113, "Input",ExpressionUUID->"f1ec774d-014e-4ca2-9567-e1bf2eaac552"],
-Cell[128563, 3575, 21750, 740, 316, "Output",ExpressionUUID->"3f9c7dc7-48ec-41ba-9d1f-fd151bad714d"]
-}, Open  ]]
-}, Open  ]]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[150374, 4322, 162, 3, 82, "Section",ExpressionUUID->"dfb9125d-6577-4592-a94e-203c70118080"],
-Cell[150539, 4327, 2290, 47, 62, "Input",ExpressionUUID->"3bbb0508-1e35-4ebf-90be-3087ba4ee9f5"],
-Cell[152832, 4376, 2496, 49, 62, "Input",ExpressionUUID->"77781158-7a0c-4b28-98f0-3b6cfbbc8fd3"],
-Cell[CellGroupData[{
-Cell[155353, 4429, 216, 4, 66, "Subsection",ExpressionUUID->"acabdd26-3d6a-45ad-a4f1-dfc5f999861d"],
-Cell[CellGroupData[{
-Cell[155594, 4437, 6406, 116, 113, "Input",ExpressionUUID->"8cbb7dc9-b376-4b1f-a386-8e6045f89289"],
-Cell[162003, 4555, 22087, 751, 316, "Output",ExpressionUUID->"7766298f-d2d0-48bc-9da8-da7d37652732"]
-}, Open  ]]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[184139, 5312, 207, 4, 66, "Subsection",ExpressionUUID->"e6dd5c02-f516-4e3c-84a6-4f898f40dd30"],
-Cell[CellGroupData[{
-Cell[184371, 5320, 6326, 115, 113, "Input",ExpressionUUID->"c519839b-9349-4d21-a06f-9060b8396fa6"],
-Cell[190700, 5437, 21667, 737, 316, "Output",ExpressionUUID->"602af9ae-0009-4ab7-b18f-afc13c86c0af"]
+Cell[124396, 3620, 6375, 116, 113, "Input",ExpressionUUID->"f1ec774d-014e-4ca2-9567-e1bf2eaac552"],
+Cell[130774, 3738, 21843, 741, 316, "Output",ExpressionUUID->"fed8debf-fa0d-4602-873e-a67422348f8c"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[212428, 6181, 167, 3, 82, "Section",ExpressionUUID->"15de7c04-9586-4c1b-a9c6-b72592d279ea"],
-Cell[212598, 6186, 2618, 60, 113, "Input",ExpressionUUID->"1716326c-d510-4709-a73a-2fec78f616f6"],
-Cell[215219, 6248, 2655, 60, 113, "Input",ExpressionUUID->"4e78d5e0-85b5-4fbf-a8fc-aae747f03b33"],
+Cell[152678, 4486, 162, 3, 82, "Section",ExpressionUUID->"dfb9125d-6577-4592-a94e-203c70118080"],
+Cell[152843, 4491, 2290, 47, 62, "Input",ExpressionUUID->"3bbb0508-1e35-4ebf-90be-3087ba4ee9f5"],
+Cell[155136, 4540, 2496, 49, 62, "Input",ExpressionUUID->"77781158-7a0c-4b28-98f0-3b6cfbbc8fd3"],
 Cell[CellGroupData[{
-Cell[217899, 6312, 164, 3, 66, "Subsection",ExpressionUUID->"22ce3c8f-19be-40b0-b15d-59cb42526012"],
+Cell[157657, 4593, 216, 4, 66, "Subsection",ExpressionUUID->"acabdd26-3d6a-45ad-a4f1-dfc5f999861d"],
 Cell[CellGroupData[{
-Cell[218088, 6319, 6783, 124, 138, "Input",ExpressionUUID->"4111488a-d7ad-43d9-b961-ee2e74cef2a4"],
-Cell[224874, 6445, 12409, 381, 776, "Output",ExpressionUUID->"52ae6fe7-03c2-4881-89e4-dd8ad4f9bcf8"]
+Cell[157898, 4601, 6406, 116, 113, "Input",ExpressionUUID->"8cbb7dc9-b376-4b1f-a386-8e6045f89289"],
+Cell[164307, 4719, 22182, 752, 316, "Output",ExpressionUUID->"8e5ce3cb-6bc4-4802-a847-d28add9ce430"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[237332, 6832, 173, 3, 66, "Subsection",ExpressionUUID->"3d1b1ccc-a600-4930-aac5-658e927eb952"],
+Cell[186538, 5477, 207, 4, 66, "Subsection",ExpressionUUID->"e6dd5c02-f516-4e3c-84a6-4f898f40dd30"],
 Cell[CellGroupData[{
-Cell[237530, 6839, 6573, 120, 138, "Input",ExpressionUUID->"e8e129a6-5703-416a-bc9c-0b2dd0b710e7"],
-Cell[244106, 6961, 12629, 381, 1101, "Output",ExpressionUUID->"33522411-4bee-4435-835b-d6c38345e05f"]
+Cell[186770, 5485, 6326, 115, 113, "Input",ExpressionUUID->"c519839b-9349-4d21-a06f-9060b8396fa6"],
+Cell[193099, 5602, 21758, 738, 316, "Output",ExpressionUUID->"61d1c0c5-57af-4ce3-8bbf-1df8815031dd"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[256796, 7349, 154, 3, 82, "Section",ExpressionUUID->"e90055dd-bbb5-4301-979f-d10185fb1e5f"],
-Cell[256953, 7354, 616, 10, 36, "Input",ExpressionUUID->"301e1331-83d5-4b97-ae02-8a5795335857"],
-Cell[257572, 7366, 572, 10, 36, "Input",ExpressionUUID->"e3fe946a-b006-490d-9f89-6ed8af5f6b44"],
-Cell[258147, 7378, 556, 13, 36, "Input",ExpressionUUID->"bd61b23e-b47f-46f0-bb3f-56c48aa7a131"],
-Cell[258706, 7393, 393, 10, 36, "Input",ExpressionUUID->"1c217c93-e00d-49da-9ccc-891327dfdcfb"],
-Cell[259102, 7405, 672, 16, 36, "Input",ExpressionUUID->"979d6013-4805-40cf-a8dd-8d29372b441c"],
-Cell[259777, 7423, 632, 13, 36, "Input",ExpressionUUID->"8f10f73c-d2d3-42ba-84c9-93fc45dd40c1"],
-Cell[260412, 7438, 534, 14, 36, "Input",ExpressionUUID->"75165b85-7d1e-4973-a526-7fb1decb8eda"]
-}, Open  ]],
+Cell[214918, 6347, 167, 3, 82, "Section",ExpressionUUID->"15de7c04-9586-4c1b-a9c6-b72592d279ea"],
+Cell[215088, 6352, 2612, 59, 113, "Input",ExpressionUUID->"1716326c-d510-4709-a73a-2fec78f616f6"],
+Cell[217703, 6413, 2651, 59, 113, "Input",ExpressionUUID->"4e78d5e0-85b5-4fbf-a8fc-aae747f03b33"],
 Cell[CellGroupData[{
-Cell[260983, 7457, 210, 4, 82, "Section",ExpressionUUID->"fb00ec87-ee10-4f0b-8dcd-fd05b81ae578"],
+Cell[220379, 6476, 164, 3, 66, "Subsection",ExpressionUUID->"22ce3c8f-19be-40b0-b15d-59cb42526012"],
 Cell[CellGroupData[{
-Cell[261218, 7465, 2222, 54, 113, "Input",ExpressionUUID->"0b97bd73-e9a2-4e56-afe3-70f4c207ab5a"],
-Cell[263443, 7521, 5257, 170, 143, "Output",ExpressionUUID->"093d4d9c-f763-47ff-9877-e3657104c18c"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[268737, 7696, 2226, 54, 113, "Input",ExpressionUUID->"4fb4dc3f-9b42-4e85-b10e-dc2abd5debe5"],
-Cell[270966, 7752, 5240, 171, 143, "Output",ExpressionUUID->"8ad7d73b-374a-4cad-818a-288581c842e4"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[276243, 7928, 2225, 54, 113, "Input",ExpressionUUID->"01e65a53-e313-4308-9b84-9e0257d03616"],
-Cell[278471, 7984, 6018, 195, 145, "Output",ExpressionUUID->"ff75d6bd-134d-46ea-a41b-e90617d1b454"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[284526, 8184, 2231, 54, 113, "Input",ExpressionUUID->"e9f3160a-4996-412d-b99a-b3141d613cf9"],
-Cell[286760, 8240, 7104, 231, 148, "Output",ExpressionUUID->"1bcaa5b4-789e-46ce-8bc7-cb1625de39ea"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[293901, 8476, 2278, 55, 113, "Input",ExpressionUUID->"68df73ab-4358-48ca-9474-14dd301c833f"],
-Cell[296182, 8533, 7021, 229, 148, "Output",ExpressionUUID->"714fb34d-5fa3-43de-836e-a05458068b22"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[303240, 8767, 2318, 55, 113, "Input",ExpressionUUID->"b24f62b9-b290-48c6-aef5-f10036bb7cbc"],
-Cell[305561, 8824, 7427, 241, 150, "Output",ExpressionUUID->"0e07dc53-4f01-4b8d-a088-4d555e56355b"]
+Cell[220568, 6483, 6783, 124, 138, "Input",ExpressionUUID->"4111488a-d7ad-43d9-b961-ee2e74cef2a4"],
+Cell[227354, 6609, 35840, 1238, 320, "Output",ExpressionUUID->"ebbb2415-83a6-412f-986d-3d09f0201de1"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[313037, 9071, 174, 3, 82, "Section",ExpressionUUID->"3febfc75-5be6-4255-92b2-8ee742437810"],
+Cell[263243, 7853, 173, 3, 66, "Subsection",ExpressionUUID->"3d1b1ccc-a600-4930-aac5-658e927eb952"],
 Cell[CellGroupData[{
-Cell[313236, 9078, 2235, 55, 113, "Input",ExpressionUUID->"29625381-39b9-4d7c-a6dd-5ab75bdf32de"],
-Cell[315474, 9135, 8770, 290, 180, "Output",ExpressionUUID->"bf3082f3-1d7b-46cd-beee-e1b99993a61e"]
+Cell[263441, 7860, 6573, 120, 138, "Input",ExpressionUUID->"e8e129a6-5703-416a-bc9c-0b2dd0b710e7"],
+Cell[270017, 7982, 35798, 1237, 320, "Output",ExpressionUUID->"997bde2b-4cdf-4dfe-9288-51ae697e6388"]
+}, Open  ]]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[324293, 9431, 154, 3, 82, "Section",ExpressionUUID->"37ed161c-fd6b-4edd-83fd-fbfc16d9ef06"],
-Cell[CellGroupData[{
-Cell[324472, 9438, 3574, 85, 343, "Input",ExpressionUUID->"e0727a6f-c43d-4ba0-b568-ff5dbf170446"],
-Cell[328049, 9525, 10732, 370, 170, "Output",ExpressionUUID->"02084709-4cf9-4f08-ae22-4dee67793d47"]
+Cell[305876, 9226, 154, 3, 82, "Section",ExpressionUUID->"e90055dd-bbb5-4301-979f-d10185fb1e5f"],
+Cell[306033, 9231, 616, 10, 36, "Input",ExpressionUUID->"301e1331-83d5-4b97-ae02-8a5795335857"],
+Cell[306652, 9243, 572, 10, 36, "Input",ExpressionUUID->"e3fe946a-b006-490d-9f89-6ed8af5f6b44"],
+Cell[307227, 9255, 556, 13, 36, "Input",ExpressionUUID->"bd61b23e-b47f-46f0-bb3f-56c48aa7a131"],
+Cell[307786, 9270, 393, 10, 36, "Input",ExpressionUUID->"1c217c93-e00d-49da-9ccc-891327dfdcfb"],
+Cell[308182, 9282, 672, 16, 36, "Input",ExpressionUUID->"979d6013-4805-40cf-a8dd-8d29372b441c"],
+Cell[308857, 9300, 632, 13, 36, "Input",ExpressionUUID->"8f10f73c-d2d3-42ba-84c9-93fc45dd40c1"],
+Cell[309492, 9315, 534, 14, 36, "Input",ExpressionUUID->"75165b85-7d1e-4973-a526-7fb1decb8eda"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[338818, 9900, 4213, 100, 343, "Input",ExpressionUUID->"4d683b24-ded7-40e8-a2c5-4694e5f6a84d"],
-Cell[343034, 10002, 9278, 309, 177, "Output",ExpressionUUID->"66397a33-b7ea-474b-b7e3-434d151b74e2"]
+Cell[310063, 9334, 210, 4, 82, "Section",ExpressionUUID->"fb00ec87-ee10-4f0b-8dcd-fd05b81ae578"],
+Cell[CellGroupData[{
+Cell[310298, 9342, 2222, 54, 113, "Input",ExpressionUUID->"0b97bd73-e9a2-4e56-afe3-70f4c207ab5a"],
+Cell[312523, 9398, 5355, 172, 143, "Output",ExpressionUUID->"42ad4ff0-04e9-458d-95d0-f5423b90df9c"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[317915, 9575, 2226, 54, 113, "Input",ExpressionUUID->"4fb4dc3f-9b42-4e85-b10e-dc2abd5debe5"],
+Cell[320144, 9631, 5333, 172, 143, "Output",ExpressionUUID->"254528bc-d781-4fc0-97ae-992d5056c804"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[325514, 9808, 2225, 54, 113, "Input",ExpressionUUID->"01e65a53-e313-4308-9b84-9e0257d03616"],
+Cell[327742, 9864, 6113, 196, 145, "Output",ExpressionUUID->"e47b6eef-b242-434b-a2a4-0ae731584a70"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[333892, 10065, 2231, 54, 113, "Input",ExpressionUUID->"e9f3160a-4996-412d-b99a-b3141d613cf9"],
+Cell[336126, 10121, 7194, 232, 148, "Output",ExpressionUUID->"d4673119-3025-46b4-9567-43f7a7dd441e"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[343357, 10358, 2278, 55, 113, "Input",ExpressionUUID->"68df73ab-4358-48ca-9474-14dd301c833f"],
+Cell[345638, 10415, 7116, 230, 148, "Output",ExpressionUUID->"c660afd8-83f5-440b-9a62-eb5e992bca73"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[352791, 10650, 2318, 55, 113, "Input",ExpressionUUID->"b24f62b9-b290-48c6-aef5-f10036bb7cbc"],
+Cell[355112, 10707, 7519, 242, 150, "Output",ExpressionUUID->"b9c90b36-d06b-4c17-b7b1-9e3912e8a059"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[352361, 10317, 156, 3, 82, "Section",ExpressionUUID->"bf3cb813-a38b-4da0-ad7e-859009d4ca19"],
+Cell[362680, 10955, 174, 3, 82, "Section",ExpressionUUID->"3febfc75-5be6-4255-92b2-8ee742437810"],
 Cell[CellGroupData[{
-Cell[352542, 10324, 6451, 116, 138, "Input",ExpressionUUID->"9d947714-d9fc-4b25-b12c-ef3b6b3cd40c"],
-Cell[358996, 10442, 4273, 135, 145, "Output",ExpressionUUID->"554a6bd8-6669-4f5a-aa64-572b4a88e9b8"]
+Cell[362879, 10962, 2235, 55, 113, "Input",ExpressionUUID->"29625381-39b9-4d7c-a6dd-5ab75bdf32de"],
+Cell[365117, 11019, 8870, 292, 180, "Output",ExpressionUUID->"157d1c3f-3c19-44fe-9eb8-974c165ae550"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[374036, 11317, 154, 3, 82, "Section",ExpressionUUID->"37ed161c-fd6b-4edd-83fd-fbfc16d9ef06"],
+Cell[CellGroupData[{
+Cell[374215, 11324, 3574, 85, 343, "Input",ExpressionUUID->"e0727a6f-c43d-4ba0-b568-ff5dbf170446"],
+Cell[377792, 11411, 10825, 371, 170, "Output",ExpressionUUID->"6c13c03a-1bef-4442-bae8-b5ea1afcc65f"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[388654, 11787, 4213, 100, 343, "Input",ExpressionUUID->"4d683b24-ded7-40e8-a2c5-4694e5f6a84d"],
+Cell[392870, 11889, 9373, 311, 177, "Output",ExpressionUUID->"3df2b058-cf08-432a-aa98-497a4ccb4368"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[402292, 12206, 156, 3, 82, "Section",ExpressionUUID->"bf3cb813-a38b-4da0-ad7e-859009d4ca19"],
+Cell[CellGroupData[{
+Cell[402473, 12213, 6451, 116, 138, "Input",ExpressionUUID->"9d947714-d9fc-4b25-b12c-ef3b6b3cd40c"],
+Cell[408927, 12331, 4365, 136, 145, "Output",ExpressionUUID->"45f86c4e-06ca-4829-9067-d4d827e64402"]
 }, Open  ]]
 }, Open  ]]
 }
