@@ -1203,12 +1203,13 @@ CompOperatorMatrix[op_,constraints_:{}]:=Module[{x,y,z,w,u,v,xp,yp,zp,wp,up},v=S
 (* ::Subsubsection:: *)
 (*Drawing*)
 
-
+Unprotect[LineColor];
 LineColor=RGBColor["#4080FF"];
+Protect[LineColor];
 
-
+Unprotect[PlaneColor];
 PlaneColor=RGBColor["#FFFF80"];
-
+Protect[PlaneColor];
 
 RoundPointColor[r2_]:=If[r2>=0,RGBColor["#80FF80"],RGBColor["#D980FF"]];
 

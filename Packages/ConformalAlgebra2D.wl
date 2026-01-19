@@ -943,9 +943,9 @@ CompOperatorMatrix[op_,constraints_:{}]:=Module[{x,y,z,w,v,xp,yp,zp,wp},v=Simpli
 (* ::Subsubsection:: *)
 (*Drawing*)
 
-
+Unprotect[LineColor];
 LineColor=RGBColor["#4080FF"];
-
+Protect[LineColor];
 
 RoundPointColor[r2_]:=If[r2>=0,RGBColor["#80FF80"],RGBColor["#D980FF"]];
 
